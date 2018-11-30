@@ -8,7 +8,7 @@
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -158,12 +158,11 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="33" y2="0" width="0" layer="20"/>
-<wire x1="33" y1="0" x2="33.127" y2="28.753" width="0" layer="20"/>
-<wire x1="33.127" y1="28.753" x2="0.127" y2="28.753" width="0" layer="20"/>
-<wire x1="0.127" y1="28.753" x2="0" y2="0" width="0" layer="20"/>
-<text x="11.049" y="3.302" size="0.6096" layer="48" rot="R90">PoolTable PWM Module
-REV A
+<wire x1="0" y1="0" x2="32.873" y2="0" width="0" layer="20"/>
+<wire x1="32.873" y1="0" x2="32.873" y2="28.753" width="0" layer="20"/>
+<wire x1="32.873" y1="28.753" x2="0" y2="28.753" width="0" layer="20"/>
+<wire x1="0" y1="28.753" x2="0" y2="0" width="0" layer="20"/>
+<text x="11.049" y="3.302" size="1.016" layer="21" rot="R90">PoolTable PWM Module REV A
 (C) DART 2018</text>
 </plain>
 <libraries>
@@ -1057,6 +1056,8 @@ design rules under a new name.</description>
 <via x="22.86" y="26.67" extent="1-16" drill="0.35"/>
 <via x="13.843" y="3.937" extent="1-16" drill="0.35"/>
 <via x="20.32" y="9.398" extent="1-16" drill="0.35"/>
+<wire x1="13.843" y1="3.937" x2="12.3222" y2="2.125" width="0" layer="19" extent="1-1"/>
+<wire x1="11.85" y1="19.05" x2="11.85" y2="16.51" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDA">
 <contactref element="U1" pad="27"/>
