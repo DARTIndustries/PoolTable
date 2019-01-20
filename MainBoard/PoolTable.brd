@@ -6039,6 +6039,38 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-52.07" y="-450.85" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="-52.07" y="-450.85" size="1.27" layer="27" align="center"/>
 </element>
+<element name="SJ2" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-59.69" y="-458.47" smashed="yes">
+<attribute name="NAME" x="-61.341" y="-457.327" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="-59.2899" y="-458.47" size="0.02" layer="27"/>
+</element>
+<element name="SJ3" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-59.69" y="-463.55" smashed="yes">
+<attribute name="NAME" x="-61.341" y="-462.407" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="-59.2899" y="-463.55" size="0.02" layer="27"/>
+</element>
+<element name="SJ4" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-59.69" y="-468.63" smashed="yes">
+<attribute name="NAME" x="-61.341" y="-467.487" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="-59.2899" y="-468.63" size="0.02" layer="27"/>
+</element>
+<element name="SJ5" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-59.69" y="-473.71" smashed="yes">
+<attribute name="NAME" x="-61.341" y="-472.567" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="-59.2899" y="-473.71" size="0.02" layer="27"/>
+</element>
+<element name="SJ6" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-59.69" y="-478.79" smashed="yes">
+<attribute name="NAME" x="-61.341" y="-477.647" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="-59.2899" y="-478.79" size="0.02" layer="27"/>
+</element>
+<element name="SJ7" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-59.69" y="-483.87" smashed="yes">
+<attribute name="NAME" x="-61.341" y="-482.727" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="-59.2899" y="-483.87" size="0.02" layer="27"/>
+</element>
+<element name="SJ8" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-59.69" y="-488.95" smashed="yes">
+<attribute name="NAME" x="-61.341" y="-487.807" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="-59.2899" y="-488.95" size="0.02" layer="27"/>
+</element>
+<element name="SJ9" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-59.69" y="-494.03" smashed="yes">
+<attribute name="NAME" x="-61.341" y="-492.887" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="-59.2899" y="-494.03" size="0.02" layer="27"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -6329,6 +6361,7 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="SDA"/>
 <contactref element="U$3" pad="SDA"/>
 <contactref element="U$2" pad="SDA"/>
+<contactref element="SJ2" pad="2"/>
 <wire x1="19.05" y1="-212.09" x2="19.05" y2="-242.57" width="0" layer="19" extent="1-1"/>
 <wire x1="19.05" y1="-181.61" x2="19.05" y2="-212.09" width="0" layer="19" extent="1-1"/>
 <wire x1="-9.74" y1="-167.64" x2="19.05" y2="-181.61" width="0" layer="19" extent="1-1"/>
@@ -6338,6 +6371,7 @@ design rules under a new name.</description>
 <wire x1="-5.573584375" y1="-121.42203125" x2="-8.113584375" y2="-136.66203125" width="0" layer="19" extent="1-1"/>
 <wire x1="-1.763584375" y1="-121.42203125" x2="-5.573584375" y2="-121.42203125" width="0" layer="19" extent="1-1"/>
 <wire x1="38.39" y1="12.4" x2="-1.763584375" y2="-121.42203125" width="0" layer="19" extent="1-1"/>
+<wire x1="-58.928" y1="-458.47" x2="19.05" y2="-242.57" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CPU1_SCL0">
 <contactref element="CPU1" pad="5"/>
@@ -6350,6 +6384,7 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="SCL"/>
 <contactref element="U$3" pad="SCL"/>
 <contactref element="U$2" pad="SCL"/>
+<contactref element="SJ3" pad="2"/>
 <wire x1="19.05" y1="-214.63" x2="19.05" y2="-245.11" width="0" layer="19" extent="1-1"/>
 <wire x1="19.05" y1="-184.15" x2="19.05" y2="-214.63" width="0" layer="19" extent="1-1"/>
 <wire x1="-9.74" y1="-163.83" x2="19.05" y2="-184.15" width="0" layer="19" extent="1-1"/>
@@ -6359,16 +6394,21 @@ design rules under a new name.</description>
 <wire x1="-7.15" y1="-121.42203125" x2="-9.69" y2="-136.66203125" width="0" layer="19" extent="1-1"/>
 <wire x1="-3.34" y1="-121.42203125" x2="-7.15" y2="-121.42203125" width="0" layer="19" extent="1-1"/>
 <wire x1="38.39" y1="13" x2="-3.34" y2="-121.42203125" width="0" layer="19" extent="1-1"/>
+<wire x1="-58.928" y1="-463.55" x2="19.05" y2="-245.11" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CPU1_SDA1">
 <contactref element="CPU1" pad="9"/>
 <contactref element="R11" pad="1"/>
+<contactref element="SJ4" pad="2"/>
 <wire x1="38.39" y1="14.2" x2="-11.01" y2="-175.26" width="0" layer="19" extent="1-1"/>
+<wire x1="-58.928" y1="-468.63" x2="-11.01" y2="-175.26" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CPU1_SCL1">
 <contactref element="CPU1" pad="11"/>
 <contactref element="R10" pad="1"/>
+<contactref element="SJ5" pad="2"/>
 <wire x1="38.39" y1="14.8" x2="-11.01" y2="-171.45" width="0" layer="19" extent="1-1"/>
+<wire x1="-58.928" y1="-473.71" x2="-11.01" y2="-171.45" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CPU1_GPIO4">
 <contactref element="CPU1" pad="15"/>
@@ -6445,18 +6485,26 @@ design rules under a new name.</description>
 <signal name="CPU1_GPIO28">
 <contactref element="CPU1" pad="28"/>
 <contactref element="R22" pad="1"/>
+<contactref element="SJ6" pad="2"/>
+<wire x1="-58.928" y1="-478.79" x2="-60.27" y2="-424.18" width="0" layer="19" extent="1-1"/>
 <wire x1="30.19" y1="19.9" x2="-60.27" y2="-424.18" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CPU1_GPIO29">
 <contactref element="CPU1" pad="30"/>
 <contactref element="R23" pad="1"/>
+<contactref element="SJ7" pad="2"/>
+<wire x1="-58.928" y1="-483.87" x2="-60.27" y2="-427.99" width="0" layer="19" extent="1-1"/>
 <wire x1="30.19" y1="20.5" x2="-60.27" y2="-427.99" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CPU1_GPIO30">
 <contactref element="CPU1" pad="34"/>
+<contactref element="SJ8" pad="2"/>
+<wire x1="-58.928" y1="-488.95" x2="30.19" y2="21.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CPU1_GPIO31">
 <contactref element="CPU1" pad="36"/>
+<contactref element="SJ9" pad="2"/>
+<wire x1="-58.928" y1="-494.03" x2="30.19" y2="22.3" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CPU1_GPIO32">
 <contactref element="CPU1" pad="46"/>
@@ -7121,39 +7169,65 @@ design rules under a new name.</description>
 <signal name="CPU1_CAM1_IO_1">
 <contactref element="CAM1" pad="18"/>
 </signal>
-<signal name="CPU1_CD1_SCL">
-<contactref element="CAM1" pad="20"/>
-<contactref element="CAM0" pad="20"/>
-<wire x1="-47.82" y1="-439.91" x2="-47.82" y2="-448.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="CPU1_CD1_SDA">
-<contactref element="CAM1" pad="21"/>
-<contactref element="CAM0" pad="21"/>
-<wire x1="-47.32" y1="-439.91" x2="-47.32" y2="-448.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="CPU1_CAM0_D0_N">
+<signal name="CPU1_CAM0_D0_N" class="1">
 <contactref element="CAM0" pad="2"/>
+<contactref element="CPU1" pad="138"/>
+<wire x1="30.19" y1="56.5" x2="-56.82" y2="-448.8" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="CPU1_CAM0_D0_P">
+<signal name="CPU1_CAM0_D0_P" class="1">
 <contactref element="CAM0" pad="3"/>
+<contactref element="CPU1" pad="136"/>
+<wire x1="30.19" y1="55.9" x2="-56.32" y2="-448.8" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="CPU1_CAM0_D1_N">
+<signal name="CPU1_CAM0_D1_N" class="1">
 <contactref element="CAM0" pad="5"/>
+<contactref element="CPU1" pad="150"/>
+<wire x1="30.19" y1="60.1" x2="-55.32" y2="-448.8" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="CPU1_CAM0_D1_P">
+<signal name="CPU1_CAM0_D1_P" class="1">
 <contactref element="CAM0" pad="6"/>
+<contactref element="CPU1" pad="148"/>
+<wire x1="30.19" y1="59.5" x2="-54.82" y2="-448.8" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="CPU1_CAM0_C_N">
+<signal name="CPU1_CAM0_C_N" class="1">
 <contactref element="CAM0" pad="8"/>
+<contactref element="CPU1" pad="144"/>
+<wire x1="30.19" y1="58.3" x2="-53.82" y2="-448.8" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="CPU1_CAM0_C_P">
+<signal name="CPU1_CAM0_C_P" class="1">
 <contactref element="CAM0" pad="9"/>
+<contactref element="CPU1" pad="142"/>
+<wire x1="30.19" y1="57.7" x2="-53.32" y2="-448.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CPU1_CAM0_IO_0">
 <contactref element="CAM0" pad="17"/>
 </signal>
 <signal name="CPU1_CAM0_IO_1">
 <contactref element="CAM0" pad="18"/>
+</signal>
+<signal name="CPU1_CAM1_SDA">
+<contactref element="SJ2" pad="1"/>
+</signal>
+<signal name="CPU1_CAM1_SCL">
+<contactref element="SJ3" pad="1"/>
+</signal>
+<signal name="CPU1_CAM1_IO0">
+<contactref element="SJ5" pad="1"/>
+</signal>
+<signal name="CPU1_CAM0_SDA">
+<contactref element="SJ6" pad="1"/>
+</signal>
+<signal name="CPU1_CAM0_SCL">
+<contactref element="SJ7" pad="1"/>
+</signal>
+<signal name="CPU1_CAM0_IO1">
+<contactref element="SJ8" pad="1"/>
+</signal>
+<signal name="CPU1_CAM0_IO0">
+<contactref element="SJ9" pad="1"/>
+</signal>
+<signal name="CPU1_CAM1_IO1">
+<contactref element="SJ4" pad="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

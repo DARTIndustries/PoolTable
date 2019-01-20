@@ -21738,6 +21738,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="CAM0" library="SamacSys_Parts" deviceset="54548-2271" device=""/>
 <part name="SUPPLY50" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND22" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="SJ2" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
+<part name="SJ3" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
+<part name="SJ4" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
+<part name="SJ5" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
+<part name="SJ6" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
+<part name="SJ7" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
+<part name="SJ8" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
+<part name="SJ9" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -21773,6 +21781,9 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <wire x1="241.3" y1="421.64" x2="241.3" y2="210.82" width="0.1524" layer="97"/>
 <wire x1="241.3" y1="210.82" x2="10.16" y2="210.82" width="0.1524" layer="97"/>
 <wire x1="10.16" y1="210.82" x2="10.16" y2="421.64" width="0.1524" layer="97"/>
+<text x="241.3" y="180.34" size="5.08" layer="97">I2C MAY BE CONFIGURED 
+WRONG TO HAVE ACCESS 
+TO BOTH BUSSES</text>
 </plain>
 <instances>
 <instance part="CPU1" gate="G$1" x="474.98" y="284.48" smashed="yes"/>
@@ -22068,6 +22079,38 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 </instance>
 <instance part="GND22" gate="1" x="259.08" y="96.52" smashed="yes">
 <attribute name="VALUE" x="259.08" y="96.266" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="SJ2" gate="1" x="307.34" y="160.02" smashed="yes" rot="R180">
+<attribute name="NAME" x="309.88" y="157.48" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="309.88" y="163.83" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="SJ3" gate="1" x="307.34" y="152.4" smashed="yes" rot="R180">
+<attribute name="NAME" x="309.88" y="149.86" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="309.88" y="156.21" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="SJ4" gate="1" x="307.34" y="144.78" smashed="yes" rot="R180">
+<attribute name="NAME" x="309.88" y="142.24" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="309.88" y="148.59" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="SJ5" gate="1" x="307.34" y="137.16" smashed="yes" rot="R180">
+<attribute name="NAME" x="309.88" y="134.62" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="309.88" y="140.97" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="SJ6" gate="1" x="307.34" y="129.54" smashed="yes" rot="R180">
+<attribute name="NAME" x="309.88" y="127" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="309.88" y="133.35" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="SJ7" gate="1" x="307.34" y="121.92" smashed="yes" rot="R180">
+<attribute name="NAME" x="309.88" y="119.38" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="309.88" y="125.73" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="SJ8" gate="1" x="307.34" y="114.3" smashed="yes" rot="R180">
+<attribute name="NAME" x="309.88" y="111.76" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="309.88" y="118.11" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="SJ9" gate="1" x="307.34" y="106.68" smashed="yes" rot="R180">
+<attribute name="NAME" x="309.88" y="104.14" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="309.88" y="110.49" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -22558,6 +22601,11 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <wire x1="401.32" y1="401.32" x2="401.32" y2="398.78" width="0.1524" layer="91"/>
 <junction x="401.32" y="398.78"/>
 </segment>
+<segment>
+<pinref part="SJ2" gate="1" pin="2"/>
+<wire x1="302.26" y1="160.02" x2="299.72" y2="160.02" width="0.1524" layer="91"/>
+<label x="299.72" y="160.02" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="CPU1_SCL0" class="0">
 <segment>
@@ -22568,6 +22616,11 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <wire x1="411.48" y1="396.24" x2="424.18" y2="396.24" width="0.1524" layer="91"/>
 <wire x1="411.48" y1="401.32" x2="411.48" y2="396.24" width="0.1524" layer="91"/>
 <junction x="411.48" y="396.24"/>
+</segment>
+<segment>
+<pinref part="SJ3" gate="1" pin="2"/>
+<wire x1="299.72" y1="152.4" x2="302.26" y2="152.4" width="0.1524" layer="91"/>
+<label x="299.72" y="152.4" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CPU1_SDA1" class="0">
@@ -22580,6 +22633,11 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <wire x1="383.54" y1="391.16" x2="383.54" y2="401.32" width="0.1524" layer="91"/>
 <junction x="383.54" y="391.16"/>
 </segment>
+<segment>
+<pinref part="SJ4" gate="1" pin="2"/>
+<wire x1="299.72" y1="144.78" x2="302.26" y2="144.78" width="0.1524" layer="91"/>
+<label x="299.72" y="144.78" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="CPU1_SCL1" class="0">
 <segment>
@@ -22590,6 +22648,11 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <wire x1="393.7" y1="388.62" x2="424.18" y2="388.62" width="0.1524" layer="91"/>
 <wire x1="393.7" y1="388.62" x2="393.7" y2="401.32" width="0.1524" layer="91"/>
 <junction x="393.7" y="388.62"/>
+</segment>
+<segment>
+<pinref part="SJ5" gate="1" pin="2"/>
+<wire x1="299.72" y1="137.16" x2="302.26" y2="137.16" width="0.1524" layer="91"/>
+<label x="299.72" y="137.16" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CPU1_GPIO4" class="0">
@@ -22771,6 +22834,11 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <wire x1="33.02" y1="127" x2="30.48" y2="127" width="0.1524" layer="91"/>
 <label x="30.48" y="127" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="SJ6" gate="1" pin="2"/>
+<wire x1="299.72" y1="129.54" x2="302.26" y2="129.54" width="0.1524" layer="91"/>
+<label x="299.72" y="129.54" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="CPU1_GPIO29" class="0">
 <segment>
@@ -22783,6 +22851,11 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <wire x1="30.48" y1="119.38" x2="33.02" y2="119.38" width="0.1524" layer="91"/>
 <label x="30.48" y="119.38" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="SJ7" gate="1" pin="2"/>
+<wire x1="299.72" y1="121.92" x2="302.26" y2="121.92" width="0.1524" layer="91"/>
+<label x="299.72" y="121.92" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="CPU1_GPIO30" class="0">
 <segment>
@@ -22790,12 +22863,22 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <wire x1="533.4" y1="360.68" x2="525.78" y2="360.68" width="0.1524" layer="91"/>
 <label x="533.4" y="360.68" size="0.8128" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="SJ8" gate="1" pin="2"/>
+<wire x1="299.72" y1="114.3" x2="302.26" y2="114.3" width="0.1524" layer="91"/>
+<label x="299.72" y="114.3" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="CPU1_GPIO31" class="0">
 <segment>
 <pinref part="CPU1" gate="G$1" pin="36/GPIO31"/>
 <wire x1="533.4" y1="358.14" x2="525.78" y2="358.14" width="0.1524" layer="91"/>
 <label x="533.4" y="358.14" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SJ9" gate="1" pin="2"/>
+<wire x1="299.72" y1="106.68" x2="302.26" y2="106.68" width="0.1524" layer="91"/>
+<label x="299.72" y="106.68" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CPU1_GPIO32" class="0">
@@ -23634,70 +23717,76 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <label x="198.12" y="121.92" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="CPU1_CD1_SCL" class="0">
-<segment>
-<pinref part="CAM1" gate="G$1" pin="20"/>
-<wire x1="198.12" y1="116.84" x2="205.74" y2="116.84" width="0.1524" layer="91"/>
-<label x="198.12" y="116.84" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="CAM0" gate="G$1" pin="20"/>
-<wire x1="256.54" y1="116.84" x2="264.16" y2="116.84" width="0.1524" layer="91"/>
-<label x="256.54" y="116.84" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="CPU1_CD1_SDA" class="0">
-<segment>
-<pinref part="CAM1" gate="G$1" pin="21"/>
-<wire x1="198.12" y1="114.3" x2="205.74" y2="114.3" width="0.1524" layer="91"/>
-<label x="198.12" y="114.3" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="CAM0" gate="G$1" pin="21"/>
-<wire x1="256.54" y1="114.3" x2="264.16" y2="114.3" width="0.1524" layer="91"/>
-<label x="256.54" y="114.3" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="CPU1_CAM0_D0_N" class="0">
+<net name="CPU1_CAM0_D0_N" class="1">
 <segment>
 <pinref part="CAM0" gate="G$1" pin="2"/>
 <wire x1="256.54" y1="162.56" x2="264.16" y2="162.56" width="0.1524" layer="91"/>
 <label x="256.54" y="162.56" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="CPU1" gate="G$1" pin="138/CAM0_DN0*"/>
+<wire x1="533.4" y1="228.6" x2="530.86" y2="228.6" width="0.1524" layer="91"/>
+<label x="533.4" y="228.6" size="1.016" layer="95" xref="yes"/>
+</segment>
 </net>
-<net name="CPU1_CAM0_D0_P" class="0">
+<net name="CPU1_CAM0_D0_P" class="1">
 <segment>
 <pinref part="CAM0" gate="G$1" pin="3"/>
 <wire x1="256.54" y1="160.02" x2="264.16" y2="160.02" width="0.1524" layer="91"/>
 <label x="256.54" y="160.02" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="CPU1" gate="G$1" pin="136/CAM0_DP0*"/>
+<wire x1="533.4" y1="231.14" x2="530.86" y2="231.14" width="0.1524" layer="91"/>
+<label x="533.4" y="231.14" size="1.016" layer="95" xref="yes"/>
+</segment>
 </net>
-<net name="CPU1_CAM0_D1_N" class="0">
+<net name="CPU1_CAM0_D1_N" class="1">
 <segment>
 <pinref part="CAM0" gate="G$1" pin="5"/>
 <wire x1="256.54" y1="154.94" x2="264.16" y2="154.94" width="0.1524" layer="91"/>
 <label x="256.54" y="154.94" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="CPU1" gate="G$1" pin="150/CAM0_DN1*"/>
+<wire x1="533.4" y1="213.36" x2="530.86" y2="213.36" width="0.1524" layer="91"/>
+<label x="533.4" y="213.36" size="1.016" layer="95" xref="yes"/>
+</segment>
 </net>
-<net name="CPU1_CAM0_D1_P" class="0">
+<net name="CPU1_CAM0_D1_P" class="1">
 <segment>
 <pinref part="CAM0" gate="G$1" pin="6"/>
 <wire x1="256.54" y1="152.4" x2="264.16" y2="152.4" width="0.1524" layer="91"/>
 <label x="256.54" y="152.4" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="CPU1" gate="G$1" pin="148/CAM0_DP1*"/>
+<wire x1="533.4" y1="215.9" x2="530.86" y2="215.9" width="0.1524" layer="91"/>
+<label x="533.4" y="215.9" size="1.016" layer="95" xref="yes"/>
+</segment>
 </net>
-<net name="CPU1_CAM0_C_N" class="0">
+<net name="CPU1_CAM0_C_N" class="1">
 <segment>
 <pinref part="CAM0" gate="G$1" pin="8"/>
 <wire x1="256.54" y1="147.32" x2="264.16" y2="147.32" width="0.1524" layer="91"/>
 <label x="256.54" y="147.32" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="CPU1" gate="G$1" pin="144/CAM0_CN*"/>
+<wire x1="533.4" y1="220.98" x2="530.86" y2="220.98" width="0.1524" layer="91"/>
+<label x="533.4" y="220.98" size="1.016" layer="95" xref="yes"/>
+</segment>
 </net>
-<net name="CPU1_CAM0_C_P" class="0">
+<net name="CPU1_CAM0_C_P" class="1">
 <segment>
 <pinref part="CAM0" gate="G$1" pin="9"/>
 <wire x1="256.54" y1="144.78" x2="264.16" y2="144.78" width="0.1524" layer="91"/>
 <label x="256.54" y="144.78" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="CPU1" gate="G$1" pin="142/CAM0_CP*"/>
+<wire x1="533.4" y1="223.52" x2="530.86" y2="223.52" width="0.1524" layer="91"/>
+<label x="533.4" y="223.52" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CPU1_CAM0_IO_0" class="0">
@@ -23712,6 +23801,62 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <pinref part="CAM0" gate="G$1" pin="18"/>
 <wire x1="256.54" y1="121.92" x2="264.16" y2="121.92" width="0.1524" layer="91"/>
 <label x="256.54" y="121.92" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="CPU1_CAM1_SDA" class="0">
+<segment>
+<pinref part="SJ2" gate="1" pin="1"/>
+<wire x1="312.42" y1="160.02" x2="314.96" y2="160.02" width="0.1524" layer="91"/>
+<label x="314.96" y="160.02" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CPU1_CAM1_SCL" class="0">
+<segment>
+<pinref part="SJ3" gate="1" pin="1"/>
+<wire x1="314.96" y1="152.4" x2="312.42" y2="152.4" width="0.1524" layer="91"/>
+<label x="314.96" y="152.4" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CPU1_CAM1_IO0" class="0">
+<segment>
+<pinref part="SJ5" gate="1" pin="1"/>
+<wire x1="314.96" y1="137.16" x2="312.42" y2="137.16" width="0.1524" layer="91"/>
+<label x="314.96" y="137.16" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CPU1_CAM0_SDA" class="0">
+<segment>
+<pinref part="SJ6" gate="1" pin="1"/>
+<wire x1="314.96" y1="129.54" x2="312.42" y2="129.54" width="0.1524" layer="91"/>
+<label x="314.96" y="129.54" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CPU1_CAM0_SCL" class="0">
+<segment>
+<pinref part="SJ7" gate="1" pin="1"/>
+<wire x1="314.96" y1="121.92" x2="312.42" y2="121.92" width="0.1524" layer="91"/>
+<label x="314.96" y="121.92" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CPU1_CAM0_IO1" class="0">
+<segment>
+<pinref part="SJ8" gate="1" pin="1"/>
+<wire x1="314.96" y1="114.3" x2="312.42" y2="114.3" width="0.1524" layer="91"/>
+<label x="314.96" y="114.3" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CPU1_CAM0_IO0" class="0">
+<segment>
+<pinref part="SJ9" gate="1" pin="1"/>
+<wire x1="312.42" y1="106.68" x2="314.96" y2="106.68" width="0.1524" layer="91"/>
+<label x="314.96" y="106.68" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CPU1_CAM1_IO1" class="0">
+<segment>
+<pinref part="SJ4" gate="1" pin="1"/>
+<wire x1="314.96" y1="144.78" x2="312.42" y2="144.78" width="0.1524" layer="91"/>
+<label x="314.96" y="144.78" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
