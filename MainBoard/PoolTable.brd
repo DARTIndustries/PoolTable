@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5430,6 +5430,23 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
 </package>
+<package name="R0603">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+chip</description>
+<wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
+<wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
+<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
+<text x="-0.889" y="0.889" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.889" y="-2.032" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
+<rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+</package>
 </packages>
 </library>
 <library name="jumper" urn="urn:adsk.eagle:library:252">
@@ -5462,6 +5479,59 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <description>Solder jumper</description>
 <packageinstances>
 <packageinstance name="SJ"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
+<library name="microchip" urn="urn:adsk.eagle:library:294">
+<description>&lt;b&gt;Microchip PIC Microcontrollers and other Devices&lt;/b&gt;&lt;p&gt;
+Based on the following sources :
+&lt;ul&gt;
+&lt;li&gt;Microchip Data Book, 1993
+&lt;li&gt;THE EMERGING WORLD STANDARD, 1995/1996
+&lt;li&gt;Microchip, Technical Library CD-ROM, June 1998
+&lt;li&gt;www.microchip.com
+&lt;/ul&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SO-08M" urn="urn:adsk.eagle:footprint:20614/1" library_version="2">
+<description>&lt;B&gt;Small Outline Medium Plastic Gull Wing&lt;/B&gt;&lt;p&gt;
+207-mil body, package type SM</description>
+<wire x1="2.4" y1="2.43" x2="2.4" y2="-1.93" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="-1.93" x2="2.4" y2="-2.43" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="-2.43" x2="-2.4" y2="-2.43" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-2.43" x2="-2.4" y2="-1.93" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="-1.93" x2="-2.4" y2="2.43" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="2.43" x2="2.4" y2="2.43" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.93" x2="-2.4" y2="-1.93" width="0.2032" layer="21"/>
+<smd name="2" x="-0.635" y="-3.33" dx="0.6" dy="2.2" layer="1"/>
+<smd name="7" x="-0.635" y="3.33" dx="0.6" dy="2.2" layer="1"/>
+<smd name="1" x="-1.905" y="-3.33" dx="0.6" dy="2.2" layer="1"/>
+<smd name="3" x="0.635" y="-3.33" dx="0.6" dy="2.2" layer="1"/>
+<smd name="4" x="1.905" y="-3.33" dx="0.6" dy="2.2" layer="1"/>
+<smd name="8" x="-1.905" y="3.33" dx="0.6" dy="2.2" layer="1"/>
+<smd name="6" x="0.635" y="3.33" dx="0.6" dy="2.2" layer="1"/>
+<smd name="5" x="1.905" y="3.33" dx="0.6" dy="2.2" layer="1"/>
+<text x="-2.667" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="3.937" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<text x="-1.905" y="-1.27" size="0.3048" layer="48">SO8 Medium</text>
+<text x="-1.905" y="-0.635" size="0.3048" layer="48">Microchip</text>
+<rectangle x1="-2.1501" y1="-4.05" x2="-1.6599" y2="-2.5301" layer="21"/>
+<rectangle x1="-0.8801" y1="-4.05" x2="-0.3899" y2="-2.5301" layer="21"/>
+<rectangle x1="0.3899" y1="-4.05" x2="0.8801" y2="-2.5301" layer="21"/>
+<rectangle x1="1.6599" y1="-4.05" x2="2.1501" y2="-2.5301" layer="21"/>
+<rectangle x1="1.6599" y1="2.5301" x2="2.1501" y2="4.05" layer="21"/>
+<rectangle x1="0.3899" y1="2.5301" x2="0.8801" y2="4.05" layer="21"/>
+<rectangle x1="-0.8801" y1="2.5301" x2="-0.3899" y2="4.05" layer="21"/>
+<rectangle x1="-2.1501" y1="2.5301" x2="-1.6599" y2="4.05" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="SO-08M" urn="urn:adsk.eagle:package:20798/1" type="box" library_version="2">
+<description>Small Outline Medium Plastic Gull Wing
+207-mil body, package type SM</description>
+<packageinstances>
+<packageinstance name="SO-08M"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -6071,6 +6141,28 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-61.341" y="-492.887" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="-59.2899" y="-494.03" size="0.02" layer="27"/>
 </element>
+<element name="R26" library="adafruit" package="R0603" value="12.4K" x="-59.69" y="-497.84" smashed="yes">
+<attribute name="NAME" x="-60.579" y="-496.951" size="1.27" layer="25"/>
+<attribute name="VALUE" x="-60.579" y="-499.872" size="1.27" layer="27"/>
+</element>
+<element name="IC4" library="microchip" library_urn="urn:adsk.eagle:library:294" package="SO-08M" package3d_urn="urn:adsk.eagle:package:20798/1" value="93LC66SM" x="-67.31" y="-495.3" smashed="yes">
+<attribute name="MF" value="MICROCHIP" x="-67.31" y="-495.3" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="93LC66/SN" x="-67.31" y="-495.3" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-69.977" y="-497.84" size="1.27" layer="25" rot="R90"/>
+<attribute name="OC_FARNELL" value="1296586" x="-67.31" y="-495.3" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="65K1154" x="-67.31" y="-495.3" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-63.373" y="-497.84" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="R27" library="SparkFun-Resistors" package="0603" value="10k" x="-69.85" y="-502.92" smashed="yes">
+<attribute name="NAME" x="-69.85" y="-502.158" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-00824" x="-69.85" y="-502.92" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-69.85" y="-503.682" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="C16" library="SparkFun-Capacitors" package="0402" value="0.1uF" x="-69.85" y="-506.73" smashed="yes">
+<attribute name="NAME" x="-69.85" y="-505.968" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-12416" x="-69.85" y="-506.73" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-69.85" y="-507.492" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -6212,6 +6304,10 @@ design rules under a new name.</description>
 <contactref element="CAM0" pad="19"/>
 <contactref element="CAM0" pad="23"/>
 <contactref element="CAM0" pad="24"/>
+<contactref element="R26" pad="1"/>
+<contactref element="IC4" pad="5"/>
+<contactref element="R27" pad="2"/>
+<contactref element="C16" pad="2"/>
 <wire x1="-55.82" y1="-448.8" x2="-57.32" y2="-448.8" width="0" layer="19" extent="1-1"/>
 <wire x1="-54.32" y1="-448.8" x2="-55.82" y2="-448.8" width="0" layer="19" extent="1-1"/>
 <wire x1="-52.82" y1="-448.8" x2="-54.32" y2="-448.8" width="0" layer="19" extent="1-1"/>
@@ -6271,6 +6367,10 @@ design rules under a new name.</description>
 <wire x1="19.05" y1="-247.65" x2="-0.6858" y2="-277.57" width="0" layer="19" extent="1-1"/>
 <wire x1="19.05" y1="-217.17" x2="19.05" y2="-247.65" width="0" layer="19" extent="1-1"/>
 <wire x1="19.05" y1="-186.69" x2="19.05" y2="-217.17" width="0" layer="19" extent="1-1"/>
+<wire x1="-65.405" y1="-491.97" x2="-59.595" y2="-450.7" width="0" layer="19" extent="1-1"/>
+<wire x1="-60.54" y1="-497.84" x2="-65.405" y2="-491.97" width="0" layer="19" extent="1-1"/>
+<wire x1="-69" y1="-502.92" x2="-60.54" y2="-497.84" width="0" layer="19" extent="1-1"/>
+<wire x1="-69.27" y1="-506.73" x2="-69" y2="-502.92" width="0" layer="19" extent="1-1"/>
 <wire x1="-9.69" y1="-144.776696875" x2="19.05" y2="-186.69" width="0" layer="19" extent="1-1"/>
 <wire x1="-9.69" y1="-137.156696875" x2="-9.69" y2="-144.776696875" width="0" layer="19" extent="1-1"/>
 <wire x1="-7.15" y1="-121.916696875" x2="-9.69" y2="-137.156696875" width="0" layer="19" extent="1-1"/>
@@ -6655,6 +6755,8 @@ design rules under a new name.</description>
 <contactref element="SJ1" pad="2"/>
 <contactref element="CAM1" pad="22"/>
 <contactref element="CAM0" pad="22"/>
+<contactref element="IC4" pad="8"/>
+<contactref element="C16" pad="1"/>
 <wire x1="-46.82" y1="-439.91" x2="-46.82" y2="-448.8" width="0" layer="19" extent="1-1"/>
 <wire x1="-58.928" y1="-416.56" x2="-46.82" y2="-439.91" width="0" layer="19" extent="1-1"/>
 <wire x1="-60.54" y1="-411.48" x2="-58.928" y2="-416.56" width="0" layer="19" extent="1-1"/>
@@ -6663,6 +6765,8 @@ design rules under a new name.</description>
 <wire x1="-56.3" y1="-330.2" x2="-57.57" y2="-350.52" width="0" layer="19" extent="1-1"/>
 <wire x1="-48.95" y1="-318.77" x2="-56.3" y2="-330.2" width="0" layer="19" extent="1-1"/>
 <wire x1="-49.53" y1="-312.9215" x2="-48.95" y2="-318.77" width="0" layer="19" extent="1-1"/>
+<wire x1="-69.215" y1="-491.97" x2="-46.82" y2="-448.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-70.43" y1="-506.73" x2="-69.215" y2="-491.97" width="0" layer="19" extent="1-1"/>
 <wire x1="-7.83" y1="-278.7142" x2="-49.53" y2="-312.9215" width="0" layer="19" extent="1-1"/>
 <wire x1="-3.83" y1="-278.7142" x2="-7.83" y2="-278.7142" width="0" layer="19" extent="1-1"/>
 <wire x1="-0.6858" y1="-278.07" x2="-3.83" y2="-278.7142" width="0" layer="19" extent="1-1"/>
@@ -7228,6 +7332,36 @@ design rules under a new name.</description>
 </signal>
 <signal name="CPU1_CAM1_IO1">
 <contactref element="SJ4" pad="1"/>
+</signal>
+<signal name="NRESET">
+<contactref element="U5" pad="12"/>
+</signal>
+<signal name="N$4">
+<contactref element="U5" pad="50"/>
+<contactref element="R26" pad="2"/>
+<wire x1="-1.83" y1="-269.9258" x2="-58.84" y2="-497.84" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="CPU1_ETH_EEDO">
+<contactref element="U5" pad="25"/>
+<contactref element="IC4" pad="3"/>
+<wire x1="-4.83" y1="-278.7142" x2="-66.675" y2="-498.63" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="CPU1_ETH_EECS">
+<contactref element="U5" pad="24"/>
+<contactref element="IC4" pad="1"/>
+<contactref element="R27" pad="1"/>
+<wire x1="-69.215" y1="-498.63" x2="-70.7" y2="-502.92" width="0" layer="19" extent="1-1"/>
+<wire x1="-5.33" y1="-278.7142" x2="-69.215" y2="-498.63" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="CPU1_ETH_EECLK">
+<contactref element="U5" pad="23"/>
+<contactref element="IC4" pad="2"/>
+<wire x1="-5.83" y1="-278.7142" x2="-67.945" y2="-498.63" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="CPU1_ETH_EEDI">
+<contactref element="U5" pad="26"/>
+<contactref element="IC4" pad="4"/>
+<wire x1="-4.33" y1="-278.7142" x2="-65.405" y2="-498.63" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
