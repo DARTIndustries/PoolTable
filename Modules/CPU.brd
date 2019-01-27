@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -165,10 +165,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="132.06" y2="0" width="0" layer="20"/>
-<wire x1="132.06" y1="0" x2="132.06" y2="55.55" width="0" layer="20"/>
-<wire x1="132.06" y1="55.55" x2="0" y2="55.55" width="0" layer="20"/>
-<wire x1="0" y1="55.55" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="132.08" y2="0" width="0" layer="20"/>
+<wire x1="132.08" y1="0" x2="132.08" y2="55.5498" width="0" layer="20"/>
+<wire x1="132.08" y1="55.5498" x2="0" y2="55.5498" width="0" layer="20"/>
+<wire x1="0" y1="55.5498" x2="0" y2="0" width="0" layer="20"/>
 <text x="20.447" y="1.397" size="0.6096" layer="25" font="vector" ratio="20" align="center">LINK</text>
 <text x="25.527" y="1.397" size="0.6096" layer="25" font="vector" ratio="20" align="center">SPEED</text>
 <text x="15.24" y="1.397" size="0.6096" layer="25" font="vector" ratio="20" align="center">ACT</text>
