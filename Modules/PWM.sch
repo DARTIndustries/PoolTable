@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3084,9 +3084,7 @@ Being a module, it is fully replacable or upgradable if the need arises.</text>
 <wire x1="27.94" y1="149.86" x2="27.94" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="152.4" x2="27.94" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="154.94" x2="27.94" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="157.48" x2="27.94" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="160.02" x2="27.94" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="162.56" x2="27.94" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="157.48" x2="27.94" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="147.32" x2="27.94" y2="147.32" width="0.1524" layer="91"/>
 <junction x="27.94" y="147.32"/>
 <wire x1="33.02" y1="149.86" x2="27.94" y2="149.86" width="0.1524" layer="91"/>
@@ -3097,10 +3095,6 @@ Being a module, it is fully replacable or upgradable if the need arises.</text>
 <junction x="27.94" y="154.94"/>
 <wire x1="33.02" y1="157.48" x2="27.94" y2="157.48" width="0.1524" layer="91"/>
 <junction x="27.94" y="157.48"/>
-<wire x1="33.02" y1="160.02" x2="27.94" y2="160.02" width="0.1524" layer="91"/>
-<junction x="27.94" y="160.02"/>
-<wire x1="33.02" y1="162.56" x2="27.94" y2="162.56" width="0.1524" layer="91"/>
-<junction x="27.94" y="162.56"/>
 <pinref part="J3" gate="G$1" pin="9"/>
 <pinref part="J3" gate="G$1" pin="7"/>
 <pinref part="J3" gate="G$1" pin="5"/>

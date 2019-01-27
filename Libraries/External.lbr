@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -1072,6 +1072,206 @@
 <text x="-4.572" y="3.3528" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
+<package name="POLOLU-REG">
+<wire x1="0" y1="0" x2="0" y2="31.75" width="0.127" layer="21"/>
+<wire x1="0" y1="31.75" x2="43.18" y2="31.75" width="0.127" layer="21"/>
+<wire x1="43.18" y1="31.75" x2="43.18" y2="0" width="0.127" layer="21"/>
+<wire x1="43.18" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<hole x="2.159" y="4.191" drill="2.1844"/>
+<hole x="41.021" y="4.191" drill="2.1844"/>
+<hole x="41.021" y="29.591" drill="2.1844"/>
+<hole x="2.159" y="29.591" drill="2.1844"/>
+<pad name="P$1" x="7.62" y="2.54" drill="2.1844"/>
+<pad name="P$2" x="12.6238" y="2.54" drill="2.1844"/>
+<pad name="P$3" x="30.5562" y="2.54" drill="2.1844"/>
+<pad name="P$4" x="35.56" y="2.54" drill="2.1844"/>
+<pad name="P$5" x="29.21" y="5.08" drill="1.016"/>
+<pad name="P$6" x="31.75" y="5.08" drill="1.016"/>
+<pad name="P$7" x="34.29" y="5.08" drill="1.016"/>
+<pad name="P$8" x="36.83" y="5.08" drill="1.016"/>
+<pad name="P$9" x="16.51" y="2.54" drill="1.016"/>
+<pad name="P$10" x="19.05" y="2.54" drill="1.016"/>
+<pad name="P$11" x="21.59" y="2.54" drill="1.016"/>
+<pad name="P$12" x="24.13" y="2.54" drill="1.016"/>
+<pad name="P$13" x="26.67" y="2.54" drill="1.016"/>
+<pad name="P$14" x="6.35" y="5.08" drill="1.016"/>
+<pad name="P$15" x="8.89" y="5.08" drill="1.016"/>
+<pad name="P$16" x="11.43" y="5.08" drill="1.016"/>
+<pad name="P$17" x="13.97" y="5.08" drill="1.016"/>
+<text x="22.098" y="26.797" size="2.54" layer="21" align="center">Pololu Regulator</text>
+<text x="22.098" y="22.987" size="2.54" layer="21" align="center">&gt;NAME</text>
+<text x="22.098" y="19.177" size="2.54" layer="21" align="center">&gt;VALUE</text>
+</package>
+<package name="MOLEX-ULTRAFIT-1X08H">
+<description>&lt;h2&gt;Molex UltraFit Horizontal 1x08&lt;/h2&gt;
+
+&lt;h3&gt;Parts&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;172310-1108&lt;/li&gt;
+    &lt;li&gt;172310-1208&lt;/li&gt;
+    &lt;li&gt;172310-1308&lt;/li&gt;
+    &lt;li&gt;172310-2108&lt;/li&gt;
+    &lt;li&gt;172310-2208&lt;/li&gt;
+    &lt;li&gt;172310-2308&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;a href='https://www.molex.com/pdm_docs/sd/1723101108_sd.pdf'&gt;Data Sheet&lt;/a&gt;</description>
+<wire x1="0" y1="15.66" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="29" y2="0" width="0.127" layer="21"/>
+<wire x1="29" y1="0" x2="29" y2="15.66" width="0.127" layer="21"/>
+<wire x1="29" y1="15.66" x2="0" y2="15.66" width="0.127" layer="21"/>
+<hole x="4" y="5.25" drill="3.05"/>
+<hole x="25" y="5.25" drill="3.05"/>
+<pad name="P$1" x="2.25" y="13" drill="1.02"/>
+<pad name="P$2" x="5.75" y="13" drill="1.02"/>
+<pad name="P$3" x="9.25" y="13" drill="1.02"/>
+<pad name="P$4" x="12.75" y="13" drill="1.02"/>
+<pad name="P$5" x="16.25" y="13" drill="1.02"/>
+<pad name="P$6" x="19.75" y="13" drill="1.02"/>
+<pad name="P$7" x="23.25" y="13" drill="1.02"/>
+<pad name="P$8" x="26.75" y="13" drill="1.02"/>
+<text x="0" y="16.51" size="1.27" layer="21">&gt;NAME</text>
+</package>
+<package name="MOLEX-ULTRAFIT-1X03H">
+<description>&lt;h2&gt;Molex UltraFit Horizontal 1x03&lt;/h2&gt;
+
+&lt;h3&gt;Parts&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;172310-1103&lt;/li&gt;
+    &lt;li&gt;172310-1203&lt;/li&gt;
+    &lt;li&gt;172310-1303&lt;/li&gt;
+    &lt;li&gt;172310-2103&lt;/li&gt;
+    &lt;li&gt;172310-2203&lt;/li&gt;
+    &lt;li&gt;172310-2303&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;a href='https://www.molex.com/pdm_docs/sd/1723101108_sd.pdf'&gt;Data Sheet&lt;/a&gt;</description>
+<wire x1="0" y1="15.66" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="11.5" y2="0" width="0.127" layer="21"/>
+<wire x1="11.5" y1="0" x2="11.5" y2="15.66" width="0.127" layer="21"/>
+<wire x1="11.5" y1="15.66" x2="0" y2="15.66" width="0.127" layer="21"/>
+<hole x="5.75" y="5.25" drill="3.05"/>
+<pad name="P$1" x="2.25" y="13" drill="1.02"/>
+<pad name="P$2" x="5.75" y="13" drill="1.02"/>
+<pad name="P$3" x="9.25" y="13" drill="1.02"/>
+<text x="0" y="16.51" size="1.27" layer="21">&gt;NAME</text>
+</package>
+<package name="MOLEX-ULTRAFIT-1X04H">
+<description>&lt;h2&gt;Molex UltraFit Horizontal 1x04&lt;/h2&gt;
+
+&lt;h3&gt;Parts&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;172310-1104&lt;/li&gt;
+    &lt;li&gt;172310-1204&lt;/li&gt;
+    &lt;li&gt;172310-1304&lt;/li&gt;
+    &lt;li&gt;172310-2104&lt;/li&gt;
+    &lt;li&gt;172310-2204&lt;/li&gt;
+    &lt;li&gt;172310-2304&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;a href='https://www.molex.com/pdm_docs/sd/1723101108_sd.pdf'&gt;Data Sheet&lt;/a&gt;</description>
+<wire x1="0" y1="15.66" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="15" y2="0" width="0.127" layer="21"/>
+<wire x1="15" y1="0" x2="15" y2="15.66" width="0.127" layer="21"/>
+<wire x1="15" y1="15.66" x2="0" y2="15.66" width="0.127" layer="21"/>
+<hole x="4" y="5.25" drill="3.05"/>
+<hole x="11" y="5.25" drill="3.05"/>
+<pad name="P$1" x="2.25" y="13" drill="1.02"/>
+<pad name="P$2" x="5.75" y="13" drill="1.02"/>
+<pad name="P$3" x="9.25" y="13" drill="1.02"/>
+<pad name="P$4" x="12.75" y="13" drill="1.02"/>
+<text x="0" y="16.51" size="1.27" layer="21">&gt;NAME</text>
+</package>
+<package name="MOLEX-ULTRAFIT-1X08V">
+<description>&lt;h2&gt;Molex UltraFit Vertical 1x08&lt;/h2&gt;
+
+&lt;h3&gt;Parts&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;172286-1108&lt;/li&gt;
+    &lt;li&gt;172286-1208&lt;/li&gt;
+    &lt;li&gt;172286-1308&lt;/li&gt;
+    &lt;li&gt;172286-2108&lt;/li&gt;
+    &lt;li&gt;172286-2208&lt;/li&gt;
+    &lt;li&gt;172286-2308&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;a href='https://www.molex.com/pdm_docs/sd/1722861102_sd.pdf'&gt;Data Sheet&lt;/a&gt;</description>
+<wire x1="0" y1="0" x2="0" y2="5.35" width="0.127" layer="21"/>
+<wire x1="0" y1="5.35" x2="10.855" y2="5.35" width="0.127" layer="21"/>
+<wire x1="10.855" y1="5.35" x2="10.855" y2="8.41" width="0.127" layer="21"/>
+<wire x1="10.855" y1="8.41" x2="18.145" y2="8.41" width="0.127" layer="21"/>
+<wire x1="18.145" y1="8.41" x2="18.145" y2="5.35" width="0.127" layer="21"/>
+<wire x1="18.145" y1="5.35" x2="29" y2="5.35" width="0.127" layer="21"/>
+<wire x1="29" y1="5.35" x2="29" y2="0" width="0.127" layer="21"/>
+<wire x1="29" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<hole x="4" y="0.7" drill="1.6"/>
+<pad name="P$1" x="2.25" y="2.93" drill="1.02"/>
+<pad name="P$2" x="5.75" y="2.93" drill="1.02"/>
+<pad name="P$3" x="9.25" y="2.93" drill="1.02"/>
+<pad name="P$4" x="12.75" y="2.93" drill="1.02"/>
+<pad name="P$5" x="16.25" y="2.93" drill="1.02"/>
+<pad name="P$6" x="19.75" y="2.93" drill="1.02"/>
+<pad name="P$7" x="23.25" y="2.93" drill="1.02"/>
+<pad name="P$8" x="26.75" y="2.93" drill="1.02"/>
+<text x="0" y="9" size="1.27" layer="21">&gt;NAME</text>
+</package>
+<package name="MOLEX-ULTRAFIT-1X04V">
+<description>&lt;h2&gt;Molex UltraFit Vertical 1x04&lt;/h2&gt;
+
+&lt;h3&gt;Parts&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;172286-1104&lt;/li&gt;
+    &lt;li&gt;172286-1204&lt;/li&gt;
+    &lt;li&gt;172286-1304&lt;/li&gt;
+    &lt;li&gt;172286-2104&lt;/li&gt;
+    &lt;li&gt;172286-2204&lt;/li&gt;
+    &lt;li&gt;172286-2304&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;a href='https://www.molex.com/pdm_docs/sd/1722861102_sd.pdf'&gt;Data Sheet&lt;/a&gt;</description>
+<wire x1="0" y1="0" x2="0" y2="5.35" width="0.127" layer="21"/>
+<wire x1="0" y1="5.35" x2="3.855" y2="5.35" width="0.127" layer="21"/>
+<wire x1="3.855" y1="5.35" x2="3.855" y2="8.41" width="0.127" layer="21"/>
+<wire x1="3.855" y1="8.41" x2="11.145" y2="8.41" width="0.127" layer="21"/>
+<wire x1="11.145" y1="8.41" x2="11.145" y2="5.35" width="0.127" layer="21"/>
+<wire x1="11.145" y1="5.35" x2="15" y2="5.35" width="0.127" layer="21"/>
+<wire x1="15" y1="5.35" x2="15" y2="0" width="0.127" layer="21"/>
+<wire x1="15" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<hole x="4" y="0.7" drill="1.6"/>
+<pad name="P$1" x="2.25" y="2.93" drill="1.02"/>
+<pad name="P$2" x="5.75" y="2.93" drill="1.02"/>
+<pad name="P$3" x="9.25" y="2.93" drill="1.02"/>
+<pad name="P$4" x="12.75" y="2.93" drill="1.02"/>
+<text x="0" y="9" size="1.27" layer="21">&gt;NAME</text>
+</package>
+<package name="MOLEX-ULTRAFIT-1X03V">
+<description>&lt;h2&gt;Molex UltraFit Vertical 1x03&lt;/h2&gt;
+
+&lt;h3&gt;Parts&lt;/h3&gt;
+&lt;ul&gt;
+    &lt;li&gt;172286-1103&lt;/li&gt;
+    &lt;li&gt;172286-1203&lt;/li&gt;
+    &lt;li&gt;172286-1303&lt;/li&gt;
+    &lt;li&gt;172286-2103&lt;/li&gt;
+    &lt;li&gt;172286-2203&lt;/li&gt;
+    &lt;li&gt;172286-2303&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;
+&lt;a href='https://www.molex.com/pdm_docs/sd/1722861102_sd.pdf'&gt;Data Sheet&lt;/a&gt;</description>
+<wire x1="0" y1="0" x2="0" y2="5.35" width="0.127" layer="21"/>
+<wire x1="0" y1="5.35" x2="2.105" y2="5.35" width="0.127" layer="21"/>
+<wire x1="2.105" y1="5.35" x2="2.105" y2="8.41" width="0.127" layer="21"/>
+<wire x1="2.105" y1="8.41" x2="9.395" y2="8.41" width="0.127" layer="21"/>
+<wire x1="9.395" y1="8.41" x2="9.395" y2="5.35" width="0.127" layer="21"/>
+<wire x1="9.395" y1="5.35" x2="11.5" y2="5.35" width="0.127" layer="21"/>
+<wire x1="11.5" y1="5.35" x2="11.5" y2="0" width="0.127" layer="21"/>
+<wire x1="11.5" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<hole x="4" y="0.7" drill="1.6"/>
+<pad name="P$1" x="2.25" y="2.93" drill="1.02"/>
+<pad name="P$2" x="5.75" y="2.93" drill="1.02"/>
+<pad name="P$3" x="9.25" y="2.93" drill="1.02"/>
+<text x="0" y="9" size="1.27" layer="21">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="LAN9512-JZX">
@@ -1174,6 +1374,57 @@
 <wire x1="-27.94" y1="-73.66" x2="27.94" y2="-73.66" width="0.254" layer="94"/>
 <text x="0" y="-76.2" size="1.778" layer="94" align="center">JTAG + NC</text>
 <text x="-27.94" y="81.28" size="1.778" layer="95">&gt;Name</text>
+</symbol>
+<symbol name="POLOLU-REG">
+<wire x1="-10.16" y1="20.32" x2="10.16" y2="20.32" width="0.254" layer="94"/>
+<wire x1="10.16" y1="20.32" x2="10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-2.54" x2="-10.16" y2="20.32" width="0.254" layer="94"/>
+<pin name="VIN" x="-12.7" y="12.7" visible="pin" length="short" direction="pwr"/>
+<pin name="VOUT" x="12.7" y="12.7" visible="pin" length="short" direction="pwr" rot="R180"/>
+<pin name="GND" x="-12.7" y="7.62" visible="pin" length="short" direction="pwr"/>
+<pin name="EN" x="-5.08" y="-5.08" visible="pin" length="short" rot="R90"/>
+<pin name="MOD" x="0" y="-5.08" visible="pin" length="short" rot="R90"/>
+<pin name="PG" x="5.08" y="-5.08" visible="pin" length="short" rot="R90"/>
+<text x="0" y="17.78" size="1.778" layer="94" align="bottom-center">Pololu Regulator</text>
+<text x="-10.16" y="21.082" size="1.016" layer="94">&gt;NAME</text>
+<text x="10.16" y="21.082" size="1.016" layer="94" align="bottom-right">&gt;VALUE</text>
+</symbol>
+<symbol name="1X08">
+<wire x1="0" y1="0" x2="0" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="0" y1="-22.86" x2="5.08" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-22.86" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="1" x="7.62" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="2" x="7.62" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="3" x="7.62" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="4" x="7.62" y="-10.16" visible="pin" length="short" rot="R180"/>
+<pin name="5" x="7.62" y="-12.7" visible="pin" length="short" rot="R180"/>
+<pin name="6" x="7.62" y="-15.24" visible="pin" length="short" rot="R180"/>
+<pin name="7" x="7.62" y="-17.78" visible="pin" length="short" rot="R180"/>
+<pin name="8" x="7.62" y="-20.32" visible="pin" length="short" rot="R180"/>
+<text x="0" y="2.54" size="1.778" layer="94" align="center-left">&gt;NAME</text>
+</symbol>
+<symbol name="1X03">
+<wire x1="0" y1="0" x2="0" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="0" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="1" x="7.62" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="2" x="7.62" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="3" x="7.62" y="-7.62" visible="pin" length="short" rot="R180"/>
+<text x="0" y="2.54" size="1.778" layer="94" align="center-left">&gt;NAME</text>
+</symbol>
+<symbol name="1X04">
+<wire x1="0" y1="0" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="0" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-12.7" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="1" x="7.62" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="2" x="7.62" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="3" x="7.62" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="4" x="7.62" y="-10.16" visible="pin" length="short" rot="R180"/>
+<text x="0" y="2.54" size="1.778" layer="94" align="center-left">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1405,6 +1656,119 @@
 <attribute name="MANUFACTURER_PART_NUMBER" value="LAN9512JZX" constant="no"/>
 <attribute name="VENDOR" value="Microchip" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="POLOLU-REG">
+<gates>
+<gate name="G$1" symbol="POLOLU-REG" x="0" y="-10.16"/>
+</gates>
+<devices>
+<device name="" package="POLOLU-REG">
+<connects>
+<connect gate="G$1" pin="EN" pad="P$13"/>
+<connect gate="G$1" pin="GND" pad="P$2 P$3 P$5 P$6 P$11 P$12 P$16 P$17"/>
+<connect gate="G$1" pin="MOD" pad="P$10"/>
+<connect gate="G$1" pin="PG" pad="P$9"/>
+<connect gate="G$1" pin="VIN" pad="P$1 P$14 P$15"/>
+<connect gate="G$1" pin="VOUT" pad="P$4 P$7 P$8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MOLEX-ULTRAFIT-1X08">
+<gates>
+<gate name="G$1" symbol="1X08" x="-2.54" y="10.16"/>
+</gates>
+<devices>
+<device name="HORIZ" package="MOLEX-ULTRAFIT-1X08H">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+<connect gate="G$1" pin="4" pad="P$4"/>
+<connect gate="G$1" pin="5" pad="P$5"/>
+<connect gate="G$1" pin="6" pad="P$6"/>
+<connect gate="G$1" pin="7" pad="P$7"/>
+<connect gate="G$1" pin="8" pad="P$8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="VERT" package="MOLEX-ULTRAFIT-1X08V">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+<connect gate="G$1" pin="4" pad="P$4"/>
+<connect gate="G$1" pin="5" pad="P$5"/>
+<connect gate="G$1" pin="6" pad="P$6"/>
+<connect gate="G$1" pin="7" pad="P$7"/>
+<connect gate="G$1" pin="8" pad="P$8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MOLEX-ULTRAFIT-1X03">
+<gates>
+<gate name="G$1" symbol="1X03" x="-2.54" y="5.08"/>
+</gates>
+<devices>
+<device name="HORIZ" package="MOLEX-ULTRAFIT-1X03H">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="VERT" package="MOLEX-ULTRAFIT-1X03V">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MOLEX-ULTRAFIT-1X04">
+<gates>
+<gate name="G$1" symbol="1X04" x="-2.54" y="5.08"/>
+</gates>
+<devices>
+<device name="HORIZ" package="MOLEX-ULTRAFIT-1X04H">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+<connect gate="G$1" pin="4" pad="P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="VERT" package="MOLEX-ULTRAFIT-1X04V">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+<connect gate="G$1" pin="4" pad="P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
