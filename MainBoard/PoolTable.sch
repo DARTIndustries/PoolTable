@@ -27562,12 +27562,22 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <wire x1="287.02" y1="162.56" x2="289.56" y2="162.56" width="0.1524" layer="91"/>
 <label x="289.56" y="162.56" size="1.016" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="CAM1" gate="G$1" pin="21"/>
+<wire x1="172.72" y1="116.84" x2="180.34" y2="116.84" width="0.1524" layer="91"/>
+<label x="172.72" y="116.84" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="CPU1_CAM1_SCL" class="0">
 <segment>
 <pinref part="SJ3" gate="1" pin="1"/>
 <wire x1="289.56" y1="154.94" x2="287.02" y2="154.94" width="0.1524" layer="91"/>
 <label x="289.56" y="154.94" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="CAM1" gate="G$1" pin="20"/>
+<wire x1="172.72" y1="119.38" x2="180.34" y2="119.38" width="0.1524" layer="91"/>
+<label x="172.72" y="119.38" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CPU1_CAM1_IO0" class="0">
@@ -27588,12 +27598,22 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <wire x1="289.56" y1="132.08" x2="287.02" y2="132.08" width="0.1524" layer="91"/>
 <label x="289.56" y="132.08" size="1.016" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="CAM0" gate="G$1" pin="21"/>
+<wire x1="231.14" y1="116.84" x2="238.76" y2="116.84" width="0.1524" layer="91"/>
+<label x="231.14" y="116.84" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="CPU1_CAM0_SCL" class="0">
 <segment>
 <pinref part="SJ7" gate="1" pin="1"/>
 <wire x1="289.56" y1="124.46" x2="287.02" y2="124.46" width="0.1524" layer="91"/>
 <label x="289.56" y="124.46" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="CAM0" gate="G$1" pin="20"/>
+<wire x1="231.14" y1="119.38" x2="238.76" y2="119.38" width="0.1524" layer="91"/>
+<label x="231.14" y="119.38" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CPU1_CAM0_IO1" class="0">
@@ -30541,12 +30561,22 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <wire x1="287.02" y1="162.56" x2="289.56" y2="162.56" width="0.1524" layer="91"/>
 <label x="289.56" y="162.56" size="1.016" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="CAM2" gate="G$1" pin="21"/>
+<wire x1="172.72" y1="116.84" x2="180.34" y2="116.84" width="0.1524" layer="91"/>
+<label x="172.72" y="116.84" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="CPU2_CAM1_SCL" class="0">
 <segment>
 <pinref part="SJ12" gate="1" pin="1"/>
 <wire x1="289.56" y1="154.94" x2="287.02" y2="154.94" width="0.1524" layer="91"/>
 <label x="289.56" y="154.94" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="CAM2" gate="G$1" pin="20"/>
+<wire x1="180.34" y1="119.38" x2="172.72" y2="119.38" width="0.1524" layer="91"/>
+<label x="172.72" y="119.38" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CPU2_CAM1_IO1" class="0">
@@ -30585,6 +30615,11 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <pinref part="SJ16" gate="1" pin="1"/>
 <wire x1="289.56" y1="124.46" x2="287.02" y2="124.46" width="0.1524" layer="91"/>
 <label x="289.56" y="124.46" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="CAM3" gate="G$1" pin="20"/>
+<wire x1="231.14" y1="119.38" x2="238.76" y2="119.38" width="0.1524" layer="91"/>
+<label x="231.14" y="119.38" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CPU2_CAM0_IO1" class="0">
@@ -30685,6 +30720,13 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <pinref part="U7" gate="A" pin="TXN"/>
 <wire x1="172.72" y1="304.8" x2="170.18" y2="304.8" width="0.1524" layer="91"/>
 <label x="172.72" y="304.8" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CPU_CAM1_SDA" class="0">
+<segment>
+<pinref part="CAM3" gate="G$1" pin="21"/>
+<wire x1="231.14" y1="116.84" x2="238.76" y2="116.84" width="0.1524" layer="91"/>
+<label x="231.14" y="116.84" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
