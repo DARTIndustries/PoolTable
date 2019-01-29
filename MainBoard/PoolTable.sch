@@ -21871,6 +21871,368 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Resistors" urn="urn:adsk.eagle:library:532">
+<description>&lt;h3&gt;SparkFun Resistors&lt;/h3&gt;
+This library contains resistors. Reference designator:R. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="AXIAL-0.3" urn="urn:adsk.eagle:footprint:39622/1" library_version="1">
+<description>&lt;h3&gt;AXIAL-0.3&lt;/h3&gt;
+&lt;p&gt;Commonly used for 1/4W through-hole resistors. 0.3" pitch between holes.&lt;/p&gt;</description>
+<wire x1="-2.54" y1="0.762" x2="2.54" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0.762" x2="2.54" y2="0" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-0.762" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-0.762" x2="-2.54" y2="-0.762" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="-0.762" x2="-2.54" y2="0" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0" x2="2.794" y2="0" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="0" x2="-2.794" y2="0" width="0.2032" layer="21"/>
+<pad name="P$1" x="-3.81" y="0" drill="0.9" diameter="1.8796"/>
+<pad name="P$2" x="3.81" y="0" drill="0.9" diameter="1.8796"/>
+<text x="0" y="1.016" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-1.016" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+</package>
+<package name="AXIAL-0.1" urn="urn:adsk.eagle:footprint:39620/1" library_version="1">
+<description>&lt;h3&gt;AXIAL-0.1&lt;/h3&gt;
+&lt;p&gt;Commonly used for 1/4W through-hole resistors. 0.1" pitch between holes.&lt;/p&gt;</description>
+<wire x1="0" y1="-0.762" x2="0" y2="0" width="0.2032" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="0.254" y1="0" x2="0" y2="0" width="0.2032" layer="21"/>
+<wire x1="0" y1="0" x2="-0.254" y2="0" width="0.2032" layer="21"/>
+<pad name="P$1" x="-1.27" y="0" drill="0.9" diameter="1.8796"/>
+<pad name="P$2" x="1.27" y="0" drill="0.9" diameter="1.8796"/>
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-1.143" size="0.6096" layer="21" font="vector" ratio="20" align="top-center">&gt;Value</text>
+</package>
+<package name="AXIAL-0.1-KIT" urn="urn:adsk.eagle:footprint:39621/1" library_version="1">
+<description>&lt;h3&gt;AXIAL-0.1-KIT&lt;/h3&gt;
+&lt;p&gt;Commonly used for 1/4W through-hole resistors. 0.1" pitch between holes.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Warning:&lt;/b&gt; This is the KIT version of the AXIAL-0.1 package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.&lt;/p&gt;</description>
+<wire x1="0" y1="-0.762" x2="0" y2="0" width="0.2032" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="0.254" y1="0" x2="0" y2="0" width="0.2032" layer="21"/>
+<wire x1="0" y1="0" x2="-0.254" y2="0" width="0.2032" layer="21"/>
+<pad name="P$1" x="-1.27" y="0" drill="0.9" diameter="1.8796" stop="no"/>
+<pad name="P$2" x="1.27" y="0" drill="0.9" diameter="1.8796" stop="no"/>
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+<circle x="-1.27" y="0" radius="0.4572" width="0" layer="29"/>
+<circle x="-1.27" y="0" radius="1.016" width="0" layer="30"/>
+<circle x="1.27" y="0" radius="1.016" width="0" layer="30"/>
+<circle x="-1.27" y="0" radius="0.4572" width="0" layer="29"/>
+<circle x="1.27" y="0" radius="0.4572" width="0" layer="29"/>
+</package>
+<package name="AXIAL-0.3-KIT" urn="urn:adsk.eagle:footprint:39623/1" library_version="1">
+<description>&lt;h3&gt;AXIAL-0.3-KIT&lt;/h3&gt;
+&lt;p&gt;Commonly used for 1/4W through-hole resistors. 0.3" pitch between holes.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Warning:&lt;/b&gt; This is the KIT version of the AXIAL-0.3 package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.&lt;/p&gt;</description>
+<wire x1="-2.54" y1="1.27" x2="2.54" y2="1.27" width="0.254" layer="21"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="0" width="0.254" layer="21"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="2.54" y1="-1.27" x2="-2.54" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="0" width="0.254" layer="21"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="1.27" width="0.254" layer="21"/>
+<wire x1="2.54" y1="0" x2="2.794" y2="0" width="0.254" layer="21"/>
+<wire x1="-2.54" y1="0" x2="-2.794" y2="0" width="0.254" layer="21"/>
+<pad name="P$1" x="-3.81" y="0" drill="1.016" diameter="2.032" stop="no"/>
+<pad name="P$2" x="3.81" y="0" drill="1.016" diameter="2.032" stop="no"/>
+<text x="0" y="1.524" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.524" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<polygon width="0.127" layer="30">
+<vertex x="3.8201" y="-0.9449" curve="-90"/>
+<vertex x="2.8652" y="-0.0152" curve="-90.011749"/>
+<vertex x="3.8176" y="0.9602" curve="-90"/>
+<vertex x="4.7676" y="-0.0178" curve="-90.024193"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="3.8176" y="-0.4369" curve="-90.012891"/>
+<vertex x="3.3731" y="-0.0127" curve="-90"/>
+<vertex x="3.8176" y="0.4546" curve="-90"/>
+<vertex x="4.2595" y="-0.0025" curve="-90.012967"/>
+</polygon>
+<polygon width="0.127" layer="30">
+<vertex x="-3.8075" y="-0.9525" curve="-90"/>
+<vertex x="-4.7624" y="-0.0228" curve="-90.011749"/>
+<vertex x="-3.81" y="0.9526" curve="-90"/>
+<vertex x="-2.86" y="-0.0254" curve="-90.024193"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="-3.81" y="-0.4445" curve="-90.012891"/>
+<vertex x="-4.2545" y="-0.0203" curve="-90"/>
+<vertex x="-3.81" y="0.447" curve="-90"/>
+<vertex x="-3.3681" y="-0.0101" curve="-90.012967"/>
+</polygon>
+</package>
+<package name="0603" urn="urn:adsk.eagle:footprint:39615/1" library_version="1">
+<description>&lt;p&gt;&lt;b&gt;Generic 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
+<wire x1="1.6" y1="0.7" x2="1.6" y2="-0.7" width="0.0508" layer="39"/>
+<wire x1="1.6" y1="-0.7" x2="-1.6" y2="-0.7" width="0.0508" layer="39"/>
+<wire x1="-1.6" y1="-0.7" x2="-1.6" y2="0.7" width="0.0508" layer="39"/>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+<package name="0402" urn="urn:adsk.eagle:footprint:39625/1" library_version="1">
+<description>&lt;p&gt;&lt;b&gt;Generic 1005 (0402) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-0.2704" y1="0.2286" x2="0.2704" y2="0.2286" width="0.1524" layer="51"/>
+<wire x1="0.2704" y1="-0.2286" x2="-0.2704" y2="-0.2286" width="0.1524" layer="51"/>
+<wire x1="-1.2" y1="0.65" x2="1.2" y2="0.65" width="0.0508" layer="39"/>
+<wire x1="1.2" y1="0.65" x2="1.2" y2="-0.65" width="0.0508" layer="39"/>
+<wire x1="1.2" y1="-0.65" x2="-1.2" y2="-0.65" width="0.0508" layer="39"/>
+<wire x1="-1.2" y1="-0.65" x2="-1.2" y2="0.65" width="0.0508" layer="39"/>
+<smd name="1" x="-0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
+<smd name="2" x="0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
+<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.3048" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.3048" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="AXIAL-0.3" urn="urn:adsk.eagle:package:39658/1" type="box" library_version="1">
+<description>AXIAL-0.3
+Commonly used for 1/4W through-hole resistors. 0.3" pitch between holes.</description>
+<packageinstances>
+<packageinstance name="AXIAL-0.3"/>
+</packageinstances>
+</package3d>
+<package3d name="AXIAL-0.1" urn="urn:adsk.eagle:package:39656/1" type="box" library_version="1">
+<description>AXIAL-0.1
+Commonly used for 1/4W through-hole resistors. 0.1" pitch between holes.</description>
+<packageinstances>
+<packageinstance name="AXIAL-0.1"/>
+</packageinstances>
+</package3d>
+<package3d name="AXIAL-0.1-KIT" urn="urn:adsk.eagle:package:39653/1" type="box" library_version="1">
+<description>AXIAL-0.1-KIT
+Commonly used for 1/4W through-hole resistors. 0.1" pitch between holes.
+Warning: This is the KIT version of the AXIAL-0.1 package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.</description>
+<packageinstances>
+<packageinstance name="AXIAL-0.1-KIT"/>
+</packageinstances>
+</package3d>
+<package3d name="AXIAL-0.3-KIT" urn="urn:adsk.eagle:package:39661/1" type="box" library_version="1">
+<description>AXIAL-0.3-KIT
+Commonly used for 1/4W through-hole resistors. 0.3" pitch between holes.
+Warning: This is the KIT version of the AXIAL-0.3 package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.</description>
+<packageinstances>
+<packageinstance name="AXIAL-0.3-KIT"/>
+</packageinstances>
+</package3d>
+<package3d name="0603" urn="urn:adsk.eagle:package:39650/1" type="box" library_version="1">
+<description>Generic 1608 (0603) package
+0.2mm courtyard excess rounded to nearest 0.05mm.</description>
+<packageinstances>
+<packageinstance name="0603"/>
+</packageinstances>
+</package3d>
+<package3d name="0402" urn="urn:adsk.eagle:package:39657/1" type="box" library_version="1">
+<description>Generic 1005 (0402) package
+0.2mm courtyard excess rounded to nearest 0.05mm.</description>
+<packageinstances>
+<packageinstance name="0402"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="RESISTOR" urn="urn:adsk.eagle:symbol:39614/1" library_version="1">
+<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<text x="0" y="1.524" size="1.778" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.524" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="100KOHM" urn="urn:adsk.eagle:component:39765/1" prefix="R" library_version="1">
+<description>&lt;h3&gt;100kΩ resistor&lt;/h3&gt;
+&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-HORIZ-1/4W-1%" package="AXIAL-0.3">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39658/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-12184"/>
+<attribute name="VALUE" value="100k" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-VERT-1/4W-1%" package="AXIAL-0.1">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39656/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-12184"/>
+<attribute name="VALUE" value="100k"/>
+</technology>
+</technologies>
+</device>
+<device name="-VERT_KIT-1/4W-1%" package="AXIAL-0.1-KIT">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39653/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-12184"/>
+<attribute name="VALUE" value="100k" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-HORIZ_KIT-1/4W-1%" package="AXIAL-0.3-KIT">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39661/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-12184"/>
+<attribute name="VALUE" value="100k"/>
+</technology>
+</technologies>
+</device>
+<device name="-VERT-1/4W-5%" package="AXIAL-0.1">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39656/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-10686"/>
+<attribute name="VALUE" value="100k"/>
+</technology>
+</technologies>
+</device>
+<device name="-VERT_KIT-1/4W-5%" package="AXIAL-0.1-KIT">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39653/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-10686"/>
+<attribute name="VALUE" value="100k"/>
+</technology>
+</technologies>
+</device>
+<device name="-HORIZ-1/4W-5%" package="AXIAL-0.3">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39658/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-10686"/>
+<attribute name="VALUE" value="100k"/>
+</technology>
+</technologies>
+</device>
+<device name="-HORIZ_KIT-1/4W-5%" package="AXIAL-0.3-KIT">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39661/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-10686"/>
+<attribute name="VALUE" value="100k"/>
+</technology>
+</technologies>
+</device>
+<device name="-0603-1/10W-1%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39650/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-07828"/>
+<attribute name="VALUE" value="100k"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402-1/16W-1%" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39657/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-13495"/>
+<attribute name="VALUE" value="100K"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -22046,6 +22408,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="Q4" library="SamacSys_Parts" deviceset="DMG1012T-7" device=""/>
 <part name="GND23" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND24" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="SUPPLY51" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY52" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY53" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="Q5" library="SamacSys_Parts" deviceset="DMG1012T-7" device=""/>
+<part name="GND25" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="R26" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="100KOHM" device="-0402-1/16W-1%" package3d_urn="urn:adsk.eagle:package:39657/1" value="100K"/>
+<part name="SUPPLY54" library="SparkFun-PowerSymbols" deviceset="1.8V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -22385,15 +22754,38 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <attribute name="NAME" x="299.72" y="24.13" size="1.778" layer="95" rot="R270" align="center-left"/>
 <attribute name="VALUE" x="297.18" y="24.13" size="1.778" layer="96" rot="R270" align="center-left"/>
 </instance>
-<instance part="Q4" gate="G$1" x="322.58" y="15.24" smashed="yes">
-<attribute name="NAME" x="334.01" y="19.05" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="334.01" y="16.51" size="1.778" layer="96" align="center-left"/>
+<instance part="Q4" gate="G$1" x="337.82" y="20.32" smashed="yes" rot="R180">
+<attribute name="NAME" x="326.39" y="16.51" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="326.39" y="19.05" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
 <instance part="GND23" gate="1" x="276.86" y="55.88" smashed="yes" rot="R180">
 <attribute name="VALUE" x="276.86" y="56.134" size="1.778" layer="96" rot="R180" align="top-center"/>
 </instance>
 <instance part="GND24" gate="1" x="360.68" y="86.36" smashed="yes" rot="R180">
 <attribute name="VALUE" x="360.68" y="86.614" size="1.778" layer="96" rot="R180" align="top-center"/>
+</instance>
+<instance part="SUPPLY51" gate="G$1" x="299.72" y="723.9" smashed="yes">
+<attribute name="VALUE" x="299.72" y="726.694" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY52" gate="G$1" x="281.94" y="721.36" smashed="yes">
+<attribute name="VALUE" x="281.94" y="724.154" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY53" gate="G$1" x="330.2" y="33.02" smashed="yes">
+<attribute name="VALUE" x="330.2" y="35.814" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="Q5" gate="G$1" x="322.58" y="48.26" smashed="yes" rot="R270">
+<attribute name="NAME" x="326.39" y="36.83" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="323.85" y="36.83" size="1.778" layer="96" rot="R270" align="center-left"/>
+</instance>
+<instance part="GND25" gate="1" x="314.96" y="40.64" smashed="yes" rot="R270">
+<attribute name="VALUE" x="314.706" y="40.64" size="1.778" layer="96" rot="R270" align="top-center"/>
+</instance>
+<instance part="R26" gate="G$1" x="342.9" y="40.64" smashed="yes" rot="R180">
+<attribute name="NAME" x="342.9" y="39.116" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="342.9" y="42.164" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
+</instance>
+<instance part="SUPPLY54" gate="G$1" x="350.52" y="40.64" smashed="yes" rot="R270">
+<attribute name="VALUE" x="353.568" y="40.64" size="1.778" layer="96" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -22905,6 +23297,10 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <wire x1="360.68" y1="73.66" x2="360.68" y2="71.12" width="0.1524" layer="91"/>
 <junction x="360.68" y="71.12"/>
 <pinref part="GND24" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND25" gate="1" pin="GND"/>
+<pinref part="Q5" gate="G$1" pin="S"/>
 </segment>
 </net>
 <net name="CPU1_SDA0" class="0">
@@ -23441,6 +23837,11 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <pinref part="SUPPLY50" gate="G$1" pin="3.3V"/>
 <wire x1="264.16" y1="111.76" x2="256.54" y2="111.76" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="330.2" y1="30.48" x2="330.2" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="SUPPLY53" gate="G$1" pin="3.3V"/>
+<junction x="330.2" y="30.48"/>
+</segment>
 </net>
 <net name="1.8V" class="0">
 <segment>
@@ -23467,6 +23868,11 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <pinref part="SUPPLY45" gate="G$1" pin="1.8V"/>
 <pinref part="R21" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="10.16" x2="35.56" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R26" gate="G$1" pin="1"/>
+<pinref part="SUPPLY54" gate="G$1" pin="1.8V"/>
+<wire x1="347.98" y1="40.64" x2="350.52" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CPU1_ETH_VDD3A" class="0">
@@ -24078,7 +24484,11 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <pinref part="IC4" gate="G$1" pin="SCL"/>
 <wire x1="287.02" y1="50.8" x2="287.02" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="U$6" gate="G$1" pin="SCL"/>
-<wire x1="287.02" y1="55.88" x2="375.92" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="55.88" x2="358.14" y2="55.88" width="0.1524" layer="91"/>
+<junction x="358.14" y="55.88"/>
+<wire x1="358.14" y1="55.88" x2="375.92" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="55.88" x2="358.14" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="73.66" x2="355.6" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -24087,7 +24497,11 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <wire x1="292.1" y1="20.32" x2="304.8" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="304.8" y1="20.32" x2="304.8" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="U$6" gate="G$1" pin="SDA"/>
-<wire x1="304.8" y1="53.34" x2="375.92" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="53.34" x2="355.6" y2="53.34" width="0.1524" layer="91"/>
+<junction x="355.6" y="53.34"/>
+<wire x1="355.6" y1="53.34" x2="375.92" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="53.34" x2="355.6" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="71.12" x2="353.06" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -24095,9 +24509,13 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <pinref part="IC4" gate="G$1" pin="HPD"/>
 <wire x1="284.48" y1="20.32" x2="284.48" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="17.78" x2="307.34" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="307.34" y1="17.78" x2="307.34" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="17.78" x2="307.34" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="U$6" gate="G$1" pin="HOTPLUG"/>
+<wire x1="307.34" y1="48.26" x2="307.34" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="307.34" y1="50.8" x2="375.92" y2="50.8" width="0.1524" layer="91"/>
+<junction x="307.34" y="48.26"/>
+<wire x1="307.34" y1="48.26" x2="322.58" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="Q5" gate="G$1" pin="G"/>
 </segment>
 </net>
 <net name="H5V" class="0">
@@ -24113,14 +24531,15 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <pinref part="IC4" gate="G$1" pin="5V"/>
 <wire x1="297.18" y1="15.24" x2="297.18" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="50.8" x2="292.1" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="Q4" gate="G$1" pin="G"/>
-<wire x1="297.18" y1="15.24" x2="314.96" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="15.24" x2="312.42" y2="15.24" width="0.1524" layer="91"/>
 <junction x="297.18" y="15.24"/>
-<wire x1="314.96" y1="15.24" x2="322.58" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="314.96" y1="15.24" x2="314.96" y2="20.32" width="0.1524" layer="91"/>
-<junction x="314.96" y="15.24"/>
-<wire x1="314.96" y1="20.32" x2="317.5" y2="20.32" width="0.1524" layer="91"/>
-<label x="317.5" y="20.32" size="1.016" layer="95" xref="yes"/>
+<wire x1="312.42" y1="15.24" x2="314.96" y2="15.24" width="0.1524" layer="91"/>
+<label x="314.96" y="15.24" size="1.016" layer="95" xref="yes"/>
+<wire x1="312.42" y1="15.24" x2="312.42" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="7.62" x2="337.82" y2="7.62" width="0.1524" layer="91"/>
+<junction x="312.42" y="15.24"/>
+<pinref part="Q4" gate="G$1" pin="G"/>
+<wire x1="337.82" y1="7.62" x2="337.82" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -24133,8 +24552,217 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <junction x="289.56" y="58.42"/>
 <wire x1="264.16" y1="58.42" x2="264.16" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="5.08" x2="330.2" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="Q4" gate="G$1" pin="S"/>
+<pinref part="Q4" gate="G$1" pin="D"/>
 <wire x1="330.2" y1="5.08" x2="330.2" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="HDMI_CEC" class="0">
+<segment>
+<pinref part="CPU1" gate="G$1" pin="171/HDMI_CEC"/>
+<wire x1="424.18" y1="185.42" x2="421.64" y2="185.42" width="0.1524" layer="91"/>
+<label x="421.64" y="185.42" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<label x="325.12" y="25.4" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="Q4" gate="G$1" pin="S"/>
+<wire x1="325.12" y1="25.4" x2="330.2" y2="25.4" width="0.1524" layer="91"/>
+<junction x="330.2" y="25.4"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="Q5" gate="G$1" pin="D"/>
+<wire x1="332.74" y1="40.64" x2="335.28" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="R26" gate="G$1" pin="2"/>
+<wire x1="335.28" y1="40.64" x2="337.82" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="335.28" y1="40.64" x2="335.28" y2="48.26" width="0.1524" layer="91"/>
+<junction x="335.28" y="40.64"/>
+<wire x1="335.28" y1="48.26" x2="337.82" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="HDMI_HPD_N_1V8" class="0">
+<segment>
+<pinref part="CPU1" gate="G$1" pin="88/GPIO46_1V8"/>
+<wire x1="525.78" y1="292.1" x2="528.32" y2="292.1" width="0.1524" layer="91"/>
+<label x="528.32" y="292.1" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<label x="337.82" y="48.26" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$24" class="0">
+<segment>
+<pinref part="U$6" gate="G$1" pin="UTIL"/>
+<wire x1="375.92" y1="48.26" x2="373.38" y2="48.26" width="0.1524" layer="91"/>
+<junction x="373.38" y="48.26"/>
+</segment>
+</net>
+<net name="N$25" class="0">
+<segment>
+<pinref part="U$6" gate="G$1" pin="CLOCK-"/>
+<wire x1="375.92" y1="45.72" x2="373.38" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$26" class="0">
+<segment>
+<pinref part="U$6" gate="G$1" pin="CLOCK+"/>
+<wire x1="375.92" y1="43.18" x2="373.38" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$27" class="0">
+<segment>
+<pinref part="U$6" gate="G$1" pin="DATA0-"/>
+<wire x1="375.92" y1="40.64" x2="373.38" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$28" class="0">
+<segment>
+<pinref part="U$6" gate="G$1" pin="DATA0+"/>
+<wire x1="375.92" y1="38.1" x2="373.38" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$29" class="0">
+<segment>
+<pinref part="U$6" gate="G$1" pin="DATA1-"/>
+<wire x1="375.92" y1="35.56" x2="373.38" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$30" class="0">
+<segment>
+<pinref part="U$6" gate="G$1" pin="DATA1+"/>
+<wire x1="375.92" y1="33.02" x2="373.38" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$31" class="0">
+<segment>
+<pinref part="U$6" gate="G$1" pin="DATA2-"/>
+<wire x1="375.92" y1="30.48" x2="373.38" y2="30.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$32" class="0">
+<segment>
+<pinref part="U$6" gate="G$1" pin="DATA2+"/>
+<wire x1="375.92" y1="27.94" x2="373.38" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="HDMI_SCL" class="0">
+<segment>
+<pinref part="CPU1" gate="G$1" pin="175/HDMI_SCL"/>
+<wire x1="424.18" y1="180.34" x2="421.64" y2="180.34" width="0.1524" layer="91"/>
+<label x="421.64" y="180.34" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="355.6" y1="71.12" x2="353.06" y2="71.12" width="0.1524" layer="91"/>
+<label x="353.06" y="71.12" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="HDMI_SDA" class="0">
+<segment>
+<pinref part="CPU1" gate="G$1" pin="173/HDMI_SDA"/>
+<wire x1="424.18" y1="182.88" x2="421.64" y2="182.88" width="0.1524" layer="91"/>
+<label x="421.64" y="182.88" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="355.6" y1="73.66" x2="353.06" y2="73.66" width="0.1524" layer="91"/>
+<label x="353.06" y="73.66" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$33" class="0">
+<segment>
+<pinref part="IC4" gate="G$1" pin="RPU2"/>
+<junction x="284.48" y="50.8"/>
+</segment>
+</net>
+<net name="HDMI_CK_N" class="0">
+<segment>
+<pinref part="CPU1" gate="G$1" pin="111/HDMI_CK_N*"/>
+<wire x1="419.1" y1="261.62" x2="416.56" y2="261.62" width="0.1524" layer="91"/>
+<label x="416.56" y="261.62" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="375.92" y1="45.72" x2="373.38" y2="45.72" width="0.1524" layer="91"/>
+<label x="373.38" y="45.72" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="HDMI_CK_P" class="0">
+<segment>
+<pinref part="CPU1" gate="G$1" pin="113/HDMI_CK_P*"/>
+<wire x1="416.56" y1="259.08" x2="419.1" y2="259.08" width="0.1524" layer="91"/>
+<label x="416.56" y="259.08" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="373.38" y1="43.18" x2="375.92" y2="43.18" width="0.1524" layer="91"/>
+<label x="373.38" y="43.18" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="HDMI_D0_N" class="0">
+<segment>
+<pinref part="CPU1" gate="G$1" pin="117/HDMI_D0_N*"/>
+<wire x1="419.1" y1="254" x2="416.56" y2="254" width="0.1524" layer="91"/>
+<label x="416.56" y="254" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="375.92" y1="40.64" x2="373.38" y2="40.64" width="0.1524" layer="91"/>
+<label x="373.38" y="40.64" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="HDMI_D0_P" class="0">
+<segment>
+<pinref part="CPU1" gate="G$1" pin="119/HDMI_D0_P*"/>
+<wire x1="419.1" y1="251.46" x2="416.56" y2="251.46" width="0.1524" layer="91"/>
+<label x="416.56" y="251.46" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="375.92" y1="38.1" x2="373.38" y2="38.1" width="0.1524" layer="91"/>
+<label x="373.38" y="38.1" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="HDMI_D1_N" class="0">
+<segment>
+<pinref part="CPU1" gate="G$1" pin="123/HDMI_D1_N*"/>
+<wire x1="419.1" y1="246.38" x2="416.56" y2="246.38" width="0.1524" layer="91"/>
+<label x="416.56" y="246.38" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="375.92" y1="35.56" x2="373.38" y2="35.56" width="0.1524" layer="91"/>
+<label x="373.38" y="35.56" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="HDMI_D1_P" class="0">
+<segment>
+<pinref part="CPU1" gate="G$1" pin="125/HDMI_D1_P*"/>
+<wire x1="419.1" y1="243.84" x2="416.56" y2="243.84" width="0.1524" layer="91"/>
+<label x="416.56" y="243.84" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="375.92" y1="33.02" x2="373.38" y2="33.02" width="0.1524" layer="91"/>
+<label x="373.38" y="33.02" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="HDMI_D2_N" class="0">
+<segment>
+<pinref part="CPU1" gate="G$1" pin="129/HDMI_D2_N*"/>
+<wire x1="419.1" y1="238.76" x2="416.56" y2="238.76" width="0.1524" layer="91"/>
+<label x="416.56" y="238.76" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="375.92" y1="30.48" x2="373.38" y2="30.48" width="0.1524" layer="91"/>
+<label x="373.38" y="30.48" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="HDMI_D2_P" class="0">
+<segment>
+<pinref part="CPU1" gate="G$1" pin="131/HDMI_D2_P*"/>
+<wire x1="419.1" y1="236.22" x2="416.56" y2="236.22" width="0.1524" layer="91"/>
+<label x="416.56" y="236.22" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="375.92" y1="27.94" x2="373.38" y2="27.94" width="0.1524" layer="91"/>
+<label x="373.38" y="27.94" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
