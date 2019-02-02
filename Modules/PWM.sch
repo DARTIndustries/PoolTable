@@ -3349,7 +3349,12 @@ Being a module, it is fully replacable or upgradable if the need arises.</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,45.72,66.04,U1,VDD,VCC,,,"/>
+<approved hash="104,1,58.42,68.58,U1,VDD,VCC,,,"/>
+<approved hash="113,1,78.74,56.7309,U1,,,,,"/>
+<approved hash="113,1,169.503,78.9026,J1,,,,,"/>
+<approved hash="113,1,210.143,78.9026,J2,,,,,"/>
+<approved hash="113,1,189.23,142.725,D1,,,,,"/>
+<approved hash="113,1,124.356,92.606,FRAME1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
