@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -10180,9 +10180,9 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.3048" drill="0">
+<class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="diff pair" width="0.3048" drill="0">
+<class number="1" name="diff pair" width="0.254" drill="0">
 </class>
 </classes>
 <parts>
@@ -10340,7 +10340,6 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <part name="GND36" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="100KOHM" device="-0402-1/16W-1%" package3d_urn="urn:adsk.eagle:package:39657/1" value="100K"/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="1.8V" device=""/>
-<part name="SJ10" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
 <part name="J5" library="SparkFun-Connectors" deviceset="MAGJACK" device=""/>
 <part name="R3" library="adafruit" deviceset="R-US_" device="R0603" value="49.9R"/>
 <part name="R4" library="adafruit" deviceset="R-US_" device="R0603" value="49.9R"/>
@@ -10353,14 +10352,6 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="R12" library="adafruit" deviceset="R-US_" device="R0603" value="332R"/>
 <part name="R15" library="adafruit" deviceset="R-US_" device="R0603" value="332R"/>
-<part name="R18" library="adafruit" deviceset="R-US_" device="R0603" value="0R"/>
-<part name="R33" library="adafruit" deviceset="R-US_" device="R0603" value="0R"/>
-<part name="R34" library="adafruit" deviceset="R-US_" device="R0603" value="0R"/>
-<part name="R35" library="adafruit" deviceset="R-US_" device="R0603" value="0R"/>
-<part name="R36" library="adafruit" deviceset="R-US_" device="R0603" value="0$"/>
-<part name="R37" library="adafruit" deviceset="R-US_" device="R0603" value="0R"/>
-<part name="R38" library="adafruit" deviceset="R-US_" device="R0603" value="0R"/>
-<part name="R39" library="adafruit" deviceset="R-US_" device="R0603" value="0$"/>
 </parts>
 <sheets>
 <sheet>
@@ -10398,11 +10389,11 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <wire x1="370.84" y1="193.04" x2="322.58" y2="193.04" width="0.1524" layer="97"/>
 <wire x1="322.58" y1="193.04" x2="10.16" y2="193.04" width="0.1524" layer="97"/>
 <wire x1="10.16" y1="193.04" x2="10.16" y2="421.64" width="0.1524" layer="97"/>
-<wire x1="149.86" y1="93.98" x2="309.88" y2="93.98" width="0.1524" layer="97"/>
-<wire x1="309.88" y1="93.98" x2="309.88" y2="182.88" width="0.1524" layer="97"/>
-<wire x1="309.88" y1="182.88" x2="149.86" y2="182.88" width="0.1524" layer="97"/>
+<wire x1="149.86" y1="93.98" x2="261.62" y2="93.98" width="0.1524" layer="97"/>
+<wire x1="261.62" y1="93.98" x2="261.62" y2="182.88" width="0.1524" layer="97"/>
+<wire x1="261.62" y1="182.88" x2="149.86" y2="182.88" width="0.1524" layer="97"/>
 <wire x1="149.86" y1="182.88" x2="149.86" y2="93.98" width="0.1524" layer="97"/>
-<text x="213.36" y="179.07" size="2.54" layer="97">Camera Connectors</text>
+<text x="193.04" y="179.07" size="2.54" layer="97">Camera Connectors</text>
 <text x="43.18" y="253.238" size="1.9304" layer="97">EEPROM</text>
 <text x="335.28" y="419.1" size="1.9304" layer="97" rot="R180">Power Filtering</text>
 <wire x1="12.7" y1="195.58" x2="12.7" y2="256.54" width="0.1524" layer="97"/>
@@ -10417,13 +10408,16 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <wire x1="220.98" y1="2.54" x2="370.84" y2="2.54" width="0.1524" layer="97"/>
 <wire x1="220.98" y1="88.9" x2="220.98" y2="2.54" width="0.1524" layer="97"/>
 <text x="292.1" y="83.82" size="2.54" layer="97">HDMI</text>
-<wire x1="220.98" y1="88.9" x2="314.96" y2="88.9" width="0.1524" layer="97"/>
+<wire x1="220.98" y1="88.9" x2="269.24" y2="88.9" width="0.1524" layer="97"/>
 <wire x1="370.84" y1="76.2" x2="370.84" y2="2.54" width="0.1524" layer="97"/>
 <wire x1="551.18" y1="53.34" x2="480.06" y2="53.34" width="0.1524" layer="97"/>
 <wire x1="480.06" y1="53.34" x2="480.06" y2="127" width="0.1524" layer="97"/>
 <wire x1="480.06" y1="127" x2="551.18" y2="127" width="0.1524" layer="97"/>
 <wire x1="551.18" y1="127" x2="551.18" y2="53.34" width="0.1524" layer="97"/>
 <text x="500.38" y="123.19" size="2.54" layer="97">Board Pin Connectors</text>
+<text x="228.6" y="251.46" size="1.016" layer="97">Note:
+Place 49.9 ohm resistors near LAN9512
+Place 10 ohm resistor near transformers</text>
 </plain>
 <instances>
 <instance part="CPU1" gate="G$1" x="474.98" y="284.48" smashed="yes"/>
@@ -10534,7 +10528,10 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <instance part="GND8" gate="1" x="50.8" y="332.74" smashed="yes" rot="R180">
 <attribute name="VALUE" x="50.8" y="332.994" size="1.778" layer="96" rot="R180" align="top-center"/>
 </instance>
-<instance part="C37" gate="G$1" x="45.72" y="368.3" smashed="yes" rot="R180"/>
+<instance part="C37" gate="G$1" x="45.72" y="368.3" smashed="yes" rot="R180">
+<attribute name="NAME" x="46.99" y="365.633" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="54.864" y="363.347" size="1.778" layer="96" font="vector" rot="R180"/>
+</instance>
 <instance part="C38" gate="G$1" x="63.5" y="309.88" smashed="yes" rot="R90">
 <attribute name="NAME" x="59.436" y="306.959" size="1.778" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="67.056" y="304.419" size="1.778" layer="96" font="vector" rot="R180"/>
@@ -10914,23 +10911,23 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <instance part="GND17" gate="1" x="462.28" y="419.1" smashed="yes" rot="R270">
 <attribute name="VALUE" x="462.026" y="419.1" size="1.778" layer="96" rot="R270" align="top-center"/>
 </instance>
-<instance part="IC8" gate="G$1" x="363.22" y="111.76" smashed="yes" rot="R180">
-<attribute name="NAME" x="356.87" y="104.14" size="1.778" layer="95" rot="R180" align="center-left"/>
-<attribute name="VALUE" x="356.87" y="106.68" size="1.778" layer="96" rot="R180" align="center-left"/>
+<instance part="IC8" gate="G$1" x="327.66" y="111.76" smashed="yes" rot="R180">
+<attribute name="NAME" x="321.31" y="104.14" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="321.31" y="106.68" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
-<instance part="C1" gate="G$1" x="332.74" y="104.14" smashed="yes" rot="R180">
-<attribute name="NAME" x="338.201" y="105.156" size="1.778" layer="95" font="vector" rot="R270"/>
-<attribute name="VALUE" x="335.661" y="105.156" size="1.778" layer="96" font="vector" rot="R270"/>
+<instance part="C1" gate="G$1" x="297.18" y="104.14" smashed="yes" rot="R180">
+<attribute name="NAME" x="302.641" y="105.156" size="1.778" layer="95" font="vector" rot="R270"/>
+<attribute name="VALUE" x="300.101" y="105.156" size="1.778" layer="96" font="vector" rot="R270"/>
 </instance>
-<instance part="C2" gate="G$1" x="373.38" y="121.92" smashed="yes" rot="R90">
-<attribute name="NAME" x="374.396" y="116.459" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="374.396" y="118.999" size="1.778" layer="96" font="vector" rot="R180"/>
+<instance part="C2" gate="G$1" x="337.82" y="121.92" smashed="yes" rot="R90">
+<attribute name="NAME" x="338.836" y="116.459" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="338.836" y="118.999" size="1.778" layer="96" font="vector" rot="R180"/>
 </instance>
-<instance part="SUPPLY5" gate="G$1" x="325.12" y="111.76" smashed="yes" rot="R90">
-<attribute name="VALUE" x="322.072" y="111.76" size="1.778" layer="96" rot="R180" align="center-left"/>
+<instance part="SUPPLY5" gate="G$1" x="289.56" y="111.76" smashed="yes" rot="R90">
+<attribute name="VALUE" x="286.512" y="111.76" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
-<instance part="GND33" gate="1" x="381" y="111.76" smashed="yes" rot="R90">
-<attribute name="VALUE" x="381.254" y="111.76" size="1.778" layer="96" rot="R90" align="top-center"/>
+<instance part="GND33" gate="1" x="345.44" y="111.76" smashed="yes" rot="R90">
+<attribute name="VALUE" x="345.694" y="111.76" size="1.778" layer="96" rot="R90" align="top-center"/>
 </instance>
 <instance part="U$6" gate="G$1" x="342.9" y="48.26" smashed="yes" rot="R180">
 <attribute name="NAME" x="360.68" y="22.86" size="2.54" layer="95" rot="R180"/>
@@ -10952,7 +10949,7 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 </instance>
 <instance part="Q5" gate="G$1" x="284.48" y="45.72" smashed="yes" rot="R270">
 <attribute name="NAME" x="280.67" y="34.29" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="280.67" y="34.29" size="1.778" layer="96" align="center-left"/>
+<attribute name="VALUE" x="280.67" y="31.75" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="GND36" gate="1" x="276.86" y="38.1" smashed="yes" rot="R270">
 <attribute name="VALUE" x="276.606" y="38.1" size="1.778" layer="96" rot="R270" align="top-center"/>
@@ -10963,10 +10960,6 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 </instance>
 <instance part="SUPPLY7" gate="G$1" x="312.42" y="38.1" smashed="yes" rot="R270">
 <attribute name="VALUE" x="315.468" y="38.1" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="SJ10" gate="1" x="299.72" y="27.94" smashed="yes" rot="R180">
-<attribute name="NAME" x="302.26" y="25.4" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="302.26" y="31.75" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="J5" gate="G$1" x="271.78" y="223.52" smashed="yes">
 <attribute name="NAME" x="259.08" y="236.728" size="1.778" layer="95" font="vector"/>
@@ -11009,38 +11002,6 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <instance part="R15" gate="G$1" x="297.18" y="210.82" smashed="yes">
 <attribute name="NAME" x="293.37" y="207.2386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="293.37" y="212.598" size="1.778" layer="96"/>
-</instance>
-<instance part="R18" gate="G$1" x="281.94" y="162.56" smashed="yes">
-<attribute name="NAME" x="278.13" y="158.9786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="278.13" y="164.338" size="1.778" layer="96"/>
-</instance>
-<instance part="R33" gate="G$1" x="281.94" y="154.94" smashed="yes">
-<attribute name="NAME" x="278.13" y="151.3586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="278.13" y="156.718" size="1.778" layer="96"/>
-</instance>
-<instance part="R34" gate="G$1" x="281.94" y="147.32" smashed="yes">
-<attribute name="NAME" x="278.13" y="143.7386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="278.13" y="149.098" size="1.778" layer="96"/>
-</instance>
-<instance part="R35" gate="G$1" x="281.94" y="109.22" smashed="yes">
-<attribute name="NAME" x="278.13" y="105.6386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="278.13" y="110.998" size="1.778" layer="96"/>
-</instance>
-<instance part="R36" gate="G$1" x="281.94" y="116.84" smashed="yes">
-<attribute name="NAME" x="278.13" y="113.2586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="278.13" y="118.618" size="1.778" layer="96"/>
-</instance>
-<instance part="R37" gate="G$1" x="281.94" y="124.46" smashed="yes">
-<attribute name="NAME" x="278.13" y="120.8786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="278.13" y="126.238" size="1.778" layer="96"/>
-</instance>
-<instance part="R38" gate="G$1" x="281.94" y="132.08" smashed="yes">
-<attribute name="NAME" x="278.13" y="128.4986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="278.13" y="133.858" size="1.778" layer="96"/>
-</instance>
-<instance part="R39" gate="G$1" x="281.94" y="139.7" smashed="yes">
-<attribute name="NAME" x="278.13" y="136.1186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="278.13" y="141.478" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -11717,18 +11678,18 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 </segment>
 <segment>
 <pinref part="IC8" gate="G$1" pin="GND"/>
-<wire x1="363.22" y1="111.76" x2="365.76" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="365.76" y1="111.76" x2="365.76" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="365.76" y1="96.52" x2="332.74" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="111.76" x2="330.2" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="111.76" x2="330.2" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="96.52" x2="297.18" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="332.74" y1="96.52" x2="332.74" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="96.52" x2="297.18" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="GND33" gate="1" pin="GND"/>
-<wire x1="378.46" y1="111.76" x2="365.76" y2="111.76" width="0.1524" layer="91"/>
-<junction x="365.76" y="111.76"/>
+<wire x1="342.9" y1="111.76" x2="330.2" y2="111.76" width="0.1524" layer="91"/>
+<junction x="330.2" y="111.76"/>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="375.92" y1="121.92" x2="378.46" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="378.46" y1="121.92" x2="378.46" y2="111.76" width="0.1524" layer="91"/>
-<junction x="378.46" y="111.76"/>
+<wire x1="340.36" y1="121.92" x2="342.9" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="342.9" y1="121.92" x2="342.9" y2="111.76" width="0.1524" layer="91"/>
+<junction x="342.9" y="111.76"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="GND_2"/>
@@ -12011,9 +11972,9 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <label x="30.48" y="127" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="274.32" y1="132.08" x2="276.86" y2="132.08" width="0.1524" layer="91"/>
-<label x="274.32" y="132.08" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="R38" gate="G$1" pin="1"/>
+<pinref part="CAM0" gate="G$1" pin="21"/>
+<wire x1="231.14" y1="116.84" x2="238.76" y2="116.84" width="0.1524" layer="91"/>
+<label x="231.14" y="116.84" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GPIO29" class="0">
@@ -12028,9 +11989,9 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <label x="30.48" y="119.38" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="274.32" y1="124.46" x2="276.86" y2="124.46" width="0.1524" layer="91"/>
-<label x="274.32" y="124.46" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="R37" gate="G$1" pin="1"/>
+<pinref part="CAM0" gate="G$1" pin="20"/>
+<wire x1="231.14" y1="119.38" x2="238.76" y2="119.38" width="0.1524" layer="91"/>
+<label x="231.14" y="119.38" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GPIO30" class="0">
@@ -12040,9 +12001,9 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <label x="533.4" y="360.68" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="274.32" y1="116.84" x2="276.86" y2="116.84" width="0.1524" layer="91"/>
-<label x="274.32" y="116.84" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="R36" gate="G$1" pin="1"/>
+<pinref part="CAM0" gate="G$1" pin="18"/>
+<wire x1="231.14" y1="124.46" x2="238.76" y2="124.46" width="0.1524" layer="91"/>
+<label x="231.14" y="124.46" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GPIO31" class="0">
@@ -12052,9 +12013,9 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <label x="533.4" y="358.14" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="274.32" y1="109.22" x2="276.86" y2="109.22" width="0.1524" layer="91"/>
-<label x="274.32" y="109.22" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="R35" gate="G$1" pin="1"/>
+<pinref part="CAM0" gate="G$1" pin="17"/>
+<wire x1="231.14" y1="127" x2="238.76" y2="127" width="0.1524" layer="91"/>
+<label x="231.14" y="127" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GPIO32" class="0">
@@ -12268,11 +12229,11 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <segment>
 <pinref part="SUPPLY5" gate="G$1" pin="5V"/>
 <pinref part="IC8" gate="G$1" pin="IN"/>
-<wire x1="325.12" y1="111.76" x2="332.74" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="111.76" x2="297.18" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="332.74" y1="111.76" x2="337.82" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="332.74" y1="111.76" x2="332.74" y2="106.68" width="0.1524" layer="91"/>
-<junction x="332.74" y="111.76"/>
+<wire x1="297.18" y1="111.76" x2="302.26" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="111.76" x2="297.18" y2="106.68" width="0.1524" layer="91"/>
+<junction x="297.18" y="111.76"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -13076,7 +13037,7 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <label x="172.72" y="165.1" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="CM0_D0_P" class="1">
+<net name="CAM0_D0_P" class="1">
 <segment>
 <pinref part="CAM0" gate="G$1" pin="3"/>
 <wire x1="231.14" y1="162.56" x2="238.76" y2="162.56" width="0.1524" layer="91"/>
@@ -13086,102 +13047,6 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <pinref part="CPU1" gate="G$1" pin="136/CAM0_DP0*"/>
 <wire x1="533.4" y1="231.14" x2="530.86" y2="231.14" width="0.1524" layer="91"/>
 <label x="533.4" y="231.14" size="1.016" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="CAM1_SDA" class="0">
-<segment>
-<wire x1="287.02" y1="162.56" x2="289.56" y2="162.56" width="0.1524" layer="91"/>
-<label x="289.56" y="162.56" size="1.016" layer="95" xref="yes"/>
-<pinref part="R18" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="CAM1" gate="G$1" pin="21"/>
-<wire x1="172.72" y1="116.84" x2="180.34" y2="116.84" width="0.1524" layer="91"/>
-<label x="172.72" y="116.84" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="CAM1_SCL" class="0">
-<segment>
-<wire x1="289.56" y1="154.94" x2="287.02" y2="154.94" width="0.1524" layer="91"/>
-<label x="289.56" y="154.94" size="1.016" layer="95" xref="yes"/>
-<pinref part="R33" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="CAM1" gate="G$1" pin="20"/>
-<wire x1="172.72" y1="119.38" x2="180.34" y2="119.38" width="0.1524" layer="91"/>
-<label x="172.72" y="119.38" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="CAM1_IO0" class="0">
-<segment>
-<wire x1="289.56" y1="139.7" x2="287.02" y2="139.7" width="0.1524" layer="91"/>
-<label x="289.56" y="139.7" size="1.016" layer="95" xref="yes"/>
-<pinref part="R39" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="CAM1" gate="G$1" pin="17"/>
-<wire x1="172.72" y1="127" x2="180.34" y2="127" width="0.1524" layer="91"/>
-<label x="172.72" y="127" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="CAM0_SDA" class="0">
-<segment>
-<wire x1="289.56" y1="132.08" x2="287.02" y2="132.08" width="0.1524" layer="91"/>
-<label x="289.56" y="132.08" size="1.016" layer="95" xref="yes"/>
-<pinref part="R38" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="CAM0" gate="G$1" pin="21"/>
-<wire x1="231.14" y1="116.84" x2="238.76" y2="116.84" width="0.1524" layer="91"/>
-<label x="231.14" y="116.84" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="CAM0_SCL" class="0">
-<segment>
-<wire x1="289.56" y1="124.46" x2="287.02" y2="124.46" width="0.1524" layer="91"/>
-<label x="289.56" y="124.46" size="1.016" layer="95" xref="yes"/>
-<pinref part="R37" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="CAM0" gate="G$1" pin="20"/>
-<wire x1="231.14" y1="119.38" x2="238.76" y2="119.38" width="0.1524" layer="91"/>
-<label x="231.14" y="119.38" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="CAM0_IO1" class="0">
-<segment>
-<wire x1="289.56" y1="116.84" x2="287.02" y2="116.84" width="0.1524" layer="91"/>
-<label x="289.56" y="116.84" size="1.016" layer="95" xref="yes"/>
-<pinref part="R36" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="CAM0" gate="G$1" pin="18"/>
-<wire x1="231.14" y1="124.46" x2="238.76" y2="124.46" width="0.1524" layer="91"/>
-<label x="231.14" y="124.46" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="CAM0_IO0" class="0">
-<segment>
-<wire x1="287.02" y1="109.22" x2="289.56" y2="109.22" width="0.1524" layer="91"/>
-<label x="289.56" y="109.22" size="1.016" layer="95" xref="yes"/>
-<pinref part="R35" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="CAM0" gate="G$1" pin="17"/>
-<wire x1="231.14" y1="127" x2="238.76" y2="127" width="0.1524" layer="91"/>
-<label x="231.14" y="127" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="CAM1_IO1" class="0">
-<segment>
-<wire x1="289.56" y1="147.32" x2="287.02" y2="147.32" width="0.1524" layer="91"/>
-<label x="289.56" y="147.32" size="1.016" layer="95" xref="yes"/>
-<pinref part="R34" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="CAM1" gate="G$1" pin="18"/>
-<wire x1="172.72" y1="124.46" x2="180.34" y2="124.46" width="0.1524" layer="91"/>
-<label x="172.72" y="124.46" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="NRESET" class="0">
@@ -13360,9 +13225,9 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <junction x="401.32" y="398.78"/>
 </segment>
 <segment>
-<wire x1="276.86" y1="162.56" x2="274.32" y2="162.56" width="0.1524" layer="91"/>
-<label x="274.32" y="162.56" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="R18" gate="G$1" pin="1"/>
+<pinref part="CAM1" gate="G$1" pin="21"/>
+<wire x1="172.72" y1="116.84" x2="180.34" y2="116.84" width="0.1524" layer="91"/>
+<label x="172.72" y="116.84" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GPIO1" class="0">
@@ -13376,9 +13241,9 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <junction x="411.48" y="396.24"/>
 </segment>
 <segment>
-<wire x1="274.32" y1="154.94" x2="276.86" y2="154.94" width="0.1524" layer="91"/>
-<label x="274.32" y="154.94" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="R33" gate="G$1" pin="1"/>
+<pinref part="CAM1" gate="G$1" pin="20"/>
+<wire x1="172.72" y1="119.38" x2="180.34" y2="119.38" width="0.1524" layer="91"/>
+<label x="172.72" y="119.38" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GPIO4" class="0">
@@ -13388,9 +13253,9 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <label x="416.56" y="383.54" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="274.32" y1="147.32" x2="276.86" y2="147.32" width="0.1524" layer="91"/>
-<label x="274.32" y="147.32" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="R34" gate="G$1" pin="1"/>
+<pinref part="CAM1" gate="G$1" pin="18"/>
+<wire x1="172.72" y1="124.46" x2="180.34" y2="124.46" width="0.1524" layer="91"/>
+<label x="172.72" y="124.46" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GPIO5" class="0">
@@ -13400,9 +13265,9 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <label x="416.56" y="381" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="274.32" y1="139.7" x2="276.86" y2="139.7" width="0.1524" layer="91"/>
-<label x="274.32" y="139.7" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="R39" gate="G$1" pin="1"/>
+<pinref part="CAM1" gate="G$1" pin="17"/>
+<wire x1="172.72" y1="127" x2="180.34" y2="127" width="0.1524" layer="91"/>
+<label x="172.72" y="127" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CAM1_C_P" class="1">
@@ -13538,11 +13403,6 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <label x="172.72" y="314.96" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J7" gate="G$1" pin="9"/>
-<wire x1="497.84" y1="81.28" x2="495.3" y2="81.28" width="0.1524" layer="91"/>
-<label x="497.84" y="81.28" size="1.016" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J5" gate="G$1" pin="RD+"/>
 <wire x1="254" y1="223.52" x2="223.52" y2="223.52" width="0.1524" layer="91"/>
 <label x="198.12" y="223.52" size="1.016" layer="95" rot="R180" xref="yes"/>
@@ -13557,11 +13417,6 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <pinref part="U5" gate="A" pin="RXN"/>
 <wire x1="172.72" y1="312.42" x2="170.18" y2="312.42" width="0.1524" layer="91"/>
 <label x="172.72" y="312.42" size="1.016" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J7" gate="G$1" pin="8"/>
-<wire x1="497.84" y1="78.74" x2="495.3" y2="78.74" width="0.1524" layer="91"/>
-<label x="497.84" y="78.74" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J5" gate="G$1" pin="RD-"/>
@@ -13580,11 +13435,6 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <label x="172.72" y="307.34" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J7" gate="G$1" pin="5"/>
-<wire x1="497.84" y1="71.12" x2="495.3" y2="71.12" width="0.1524" layer="91"/>
-<label x="497.84" y="71.12" size="1.016" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J5" gate="G$1" pin="TD+"/>
 <wire x1="198.12" y1="233.68" x2="203.2" y2="233.68" width="0.1524" layer="91"/>
 <label x="198.12" y="233.68" size="1.016" layer="95" rot="R180" xref="yes"/>
@@ -13599,11 +13449,6 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <pinref part="U5" gate="A" pin="TXN"/>
 <wire x1="172.72" y1="304.8" x2="170.18" y2="304.8" width="0.1524" layer="91"/>
 <label x="172.72" y="304.8" size="1.016" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J7" gate="G$1" pin="4"/>
-<wire x1="497.84" y1="68.58" x2="495.3" y2="68.58" width="0.1524" layer="91"/>
-<label x="497.84" y="68.58" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J5" gate="G$1" pin="TD-"/>
@@ -13625,13 +13470,13 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <net name="H5V" class="0">
 <segment>
 <pinref part="IC8" gate="G$1" pin="OUT"/>
-<wire x1="363.22" y1="114.3" x2="365.76" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="365.76" y1="114.3" x2="365.76" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="365.76" y1="121.92" x2="360.68" y2="121.92" width="0.1524" layer="91"/>
-<label x="360.68" y="121.92" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="327.66" y1="114.3" x2="330.2" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="114.3" x2="330.2" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="121.92" x2="325.12" y2="121.92" width="0.1524" layer="91"/>
+<label x="325.12" y="121.92" size="1.016" layer="95" rot="R180" xref="yes"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="365.76" y1="121.92" x2="368.3" y2="121.92" width="0.1524" layer="91"/>
-<junction x="365.76" y="121.92"/>
+<wire x1="330.2" y1="121.92" x2="332.74" y2="121.92" width="0.1524" layer="91"/>
+<junction x="330.2" y="121.92"/>
 </segment>
 <segment>
 <pinref part="U$6" gate="G$1" pin="VCC"/>
@@ -13699,9 +13544,6 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <wire x1="292.1" y1="27.94" x2="292.1" y2="25.4" width="0.1524" layer="91"/>
 <junction x="292.1" y="25.4"/>
 <label x="289.56" y="27.94" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="SJ10" gate="1" pin="2"/>
-<wire x1="294.64" y1="27.94" x2="292.1" y2="27.94" width="0.1524" layer="91"/>
-<junction x="292.1" y="27.94"/>
 </segment>
 </net>
 <net name="HDMI_HPD_N_1V8" class="0">
@@ -13856,10 +13698,9 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 </net>
 <net name="N$2" class="0">
 <segment>
-<wire x1="314.96" y1="88.9" x2="314.96" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="314.96" y1="129.54" x2="386.08" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="386.08" y1="129.54" x2="386.08" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="386.08" y1="76.2" x2="370.84" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="88.9" x2="269.24" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="129.54" x2="370.84" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="370.84" y1="129.54" x2="370.84" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -13896,11 +13737,6 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <label x="172.72" y="289.56" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J5" gate="G$1" pin="YLED-"/>
-<wire x1="292.1" y1="226.06" x2="289.56" y2="226.06" width="0.1524" layer="91"/>
-<pinref part="R12" gate="G$1" pin="1"/>
-</segment>
-<segment>
 <pinref part="R12" gate="G$1" pin="2"/>
 <wire x1="304.8" y1="226.06" x2="302.26" y2="226.06" width="0.1524" layer="91"/>
 <label x="304.8" y="226.06" size="1.016" layer="95" xref="yes"/>
@@ -13911,6 +13747,13 @@ PULL DOWNS TO AVOID THEM FLOATING</text>
 <pinref part="J5" gate="G$1" pin="GLED-"/>
 <wire x1="292.1" y1="210.82" x2="289.56" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="R15" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="J5" gate="G$1" pin="YLED-"/>
+<wire x1="292.1" y1="226.06" x2="289.56" y2="226.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

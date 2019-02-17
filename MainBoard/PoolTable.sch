@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -19049,7 +19049,6 @@ Switches electronic signals</description>
 <part name="SUPPLY36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY38" library="SparkFun-PowerSymbols" deviceset="12V" device=""/>
 <part name="SUPPLY39" library="SparkFun-PowerSymbols" deviceset="1.8V" device=""/>
-<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_C_L" device=""/>
 <part name="CPU0" library="Modules" deviceset="CPU_MODULE" device=""/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
@@ -20520,24 +20519,6 @@ Switches electronic signals</description>
 <label x="365.76" y="414.02" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-</nets>
-</sheet>
-<sheet>
-<plain>
-<text x="454.66" y="30.48" size="2.54" layer="94">Misc Components</text>
-<text x="546.1" y="7.62" size="2.54" layer="94">A</text>
-</plain>
-<instances>
-<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
-<instance part="FRAME1" gate="G$2" x="452.12" y="0" smashed="yes">
-<attribute name="LAST_DATE_TIME" x="464.82" y="1.27" size="2.54" layer="94"/>
-<attribute name="SHEET" x="538.48" y="1.27" size="2.54" layer="94"/>
-<attribute name="DRAWING_NAME" x="469.9" y="19.05" size="2.54" layer="94"/>
-</instance>
-</instances>
-<busses>
-</busses>
-<nets>
 </nets>
 </sheet>
 </sheets>
