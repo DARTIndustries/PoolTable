@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.1">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -10163,11 +10163,13 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.254" drill="0">
 </class>
 <class number="1" name="diff pair" width="0.254" drill="0">
 </class>
 <class number="2" name="pwr" width="0.3048" drill="0">
+</class>
+<class number="3" name="bga" width="0.1524" drill="0">
 </class>
 </classes>
 <parts>
@@ -12687,7 +12689,7 @@ Place 10 ohm resistor near transformers</text>
 <label x="27.94" y="58.42" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$18" class="0">
+<net name="N$18" class="3">
 <segment>
 <pinref part="U6" gate="G$1" pin="HSD2+"/>
 <wire x1="152.4" y1="43.18" x2="127" y2="43.18" width="0.1524" layer="91"/>
@@ -12696,7 +12698,7 @@ Place 10 ohm resistor near transformers</text>
 <wire x1="127" y1="60.96" x2="137.16" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$20" class="0">
+<net name="N$20" class="3">
 <segment>
 <pinref part="U6" gate="G$1" pin="HSD2-"/>
 <wire x1="152.4" y1="40.64" x2="124.46" y2="40.64" width="0.1524" layer="91"/>
@@ -13444,7 +13446,7 @@ Place 10 ohm resistor near transformers</text>
 <wire x1="477.52" y1="419.1" x2="480.06" y2="419.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="H5V" class="0">
+<net name="H5V" class="3">
 <segment>
 <pinref part="IC8" gate="G$1" pin="OUT"/>
 <wire x1="327.66" y1="114.3" x2="330.2" y2="114.3" width="0.1524" layer="91"/>
@@ -13480,7 +13482,7 @@ Place 10 ohm resistor near transformers</text>
 <wire x1="302.26" y1="20.32" x2="299.72" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="N$6" class="3">
 <segment>
 <pinref part="IC1" gate="G$1" pin="HPD"/>
 <wire x1="246.38" y1="20.32" x2="246.38" y2="17.78" width="0.1524" layer="91"/>
@@ -13495,7 +13497,7 @@ Place 10 ohm resistor near transformers</text>
 <pinref part="Q5" gate="G$1" pin="G"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="N$9" class="3">
 <segment>
 <pinref part="IC1" gate="G$1" pin="CEC"/>
 <wire x1="251.46" y1="50.8" x2="251.46" y2="58.42" width="0.1524" layer="91"/>
@@ -13540,7 +13542,7 @@ Place 10 ohm resistor near transformers</text>
 <label x="528.32" y="292.1" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="HDMI_SCL" class="0">
+<net name="HDMI_SCL" class="3">
 <segment>
 <pinref part="IC1" gate="G$1" pin="SDA"/>
 <wire x1="254" y1="20.32" x2="266.7" y2="20.32" width="0.1524" layer="91"/>
@@ -13559,7 +13561,7 @@ Place 10 ohm resistor near transformers</text>
 <label x="421.64" y="180.34" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="HDMI_SDA" class="0">
+<net name="HDMI_SDA" class="3">
 <segment>
 <pinref part="IC1" gate="G$1" pin="SCL"/>
 <wire x1="248.92" y1="50.8" x2="248.92" y2="55.88" width="0.1524" layer="91"/>
