@@ -4289,54 +4289,6 @@ Manufacturer: Hirose&lt;br&gt;
 <vertex x="-2.921" y="-0.508"/>
 </polygon>
 </package>
-<package name="SD">
-<description>&lt;h3&gt;SD/MMC Socket&lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:13&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=”https://cdn.sparkfun.com/datasheets/Prototyping/19608.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;SD_CARD_SOCKET&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<smd name="1" x="-1" y="6.77" dx="1.8" dy="0.9" layer="1"/>
-<smd name="2" x="-1" y="4.27" dx="1.8" dy="0.9" layer="1"/>
-<smd name="3" x="-1" y="2.52" dx="1.8" dy="0.9" layer="1"/>
-<smd name="CD" x="-1" y="1.02" dx="1.8" dy="0.9" layer="1"/>
-<smd name="4" x="-1" y="-0.73" dx="1.8" dy="0.9" layer="1"/>
-<smd name="5" x="-1" y="-3.23" dx="1.8" dy="0.9" layer="1"/>
-<smd name="6" x="-1" y="-5.73" dx="1.8" dy="0.9" layer="1"/>
-<smd name="7" x="-1" y="-8.15" dx="1.8" dy="0.9" layer="1"/>
-<smd name="8" x="-1" y="-9.85" dx="1.8" dy="0.9" layer="1"/>
-<smd name="SH@1" x="20" y="14.496" dx="2" dy="1.4" layer="1"/>
-<smd name="SH@2" x="21.15" y="-13.589" dx="2" dy="1.527" layer="1"/>
-<smd name="WP" x="-1" y="-13" dx="1.8" dy="1.1" layer="1"/>
-<smd name="9" x="-1" y="9.27" dx="1.8" dy="0.9" layer="1"/>
-<wire x1="0" y1="14.25" x2="28.8" y2="14.25" width="0.127" layer="51"/>
-<wire x1="28.8" y1="14.25" x2="28.8" y2="10" width="0.127" layer="51"/>
-<wire x1="28.8" y1="10" x2="28.8" y2="-10.5" width="0.127" layer="51"/>
-<wire x1="28.8" y1="-10.5" x2="28.8" y2="-14.25" width="0.127" layer="51"/>
-<wire x1="28.8" y1="-14.25" x2="0" y2="-14.25" width="0.127" layer="51"/>
-<wire x1="0" y1="-14.25" x2="0" y2="14.25" width="0.127" layer="51"/>
-<hole x="23.3" y="11.94" drill="1.55"/>
-<hole x="23.3" y="-12.32" drill="1.55"/>
-<text x="0.54" y="12.94" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="0.54" y="11.67" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-<wire x1="-0.095" y1="10.019" x2="-0.095" y2="14.418" width="0.254" layer="21"/>
-<wire x1="-0.095" y1="14.418" x2="5.239" y2="14.418" width="0.254" layer="21"/>
-<wire x1="21.849" y1="14.318" x2="28.888" y2="14.318" width="0.254" layer="21"/>
-<wire x1="28.888" y1="14.318" x2="28.9" y2="12.9" width="0.254" layer="21"/>
-<wire x1="23.011" y1="-14.327" x2="28.888" y2="-14.327" width="0.254" layer="21"/>
-<wire x1="28.888" y1="-14.327" x2="28.888" y2="-13.349" width="0.254" layer="21"/>
-<wire x1="-0.095" y1="-14.238" x2="-0.095" y2="-14.327" width="0.254" layer="21"/>
-<wire x1="-0.095" y1="-14.327" x2="5.239" y2="-14.327" width="0.254" layer="21"/>
-<wire x1="35.6" y1="12" x2="35.6" y2="-13" width="0.127" layer="51"/>
-<text x="34.9" y="-9.3" size="1.27" layer="51" rot="R90">card lock position</text>
-<wire x1="28.8" y1="10" x2="28" y2="10" width="0.127" layer="51"/>
-<wire x1="28" y1="10" x2="18" y2="0" width="0.127" layer="51" curve="90"/>
-<wire x1="28" y1="-10.5" x2="18" y2="-0.5" width="0.127" layer="51" curve="-90"/>
-<wire x1="18" y1="0" x2="18" y2="-0.5" width="0.127" layer="51"/>
-<wire x1="28" y1="-10.5" x2="28.8" y2="-10.5" width="0.127" layer="51"/>
-</package>
 <package name="1X20">
 <description>&lt;h3&gt;Plated Through Hole -20 Pin&lt;/h3&gt;
 &lt;p&gt;Specifications:
@@ -5197,27 +5149,6 @@ tDocu shows where the cable plugs in
 <wire x1="-2.54" y1="-7.62" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
 <text x="-2.54" y="10.414" size="1.778" layer="95" font="vector">&gt;NAME</text>
 </symbol>
-<symbol name="SDCARD-1">
-<wire x1="-7.62" y1="17.78" x2="7.62" y2="17.78" width="0.254" layer="94"/>
-<wire x1="7.62" y1="17.78" x2="7.62" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-17.78" x2="-7.62" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-17.78" x2="-7.62" y2="17.78" width="0.254" layer="94"/>
-<pin name="CD/DAT3" x="-12.7" y="0" length="middle"/>
-<pin name="CMD" x="-12.7" y="2.54" length="middle"/>
-<pin name="VSS1" x="-12.7" y="-7.62" length="middle" direction="pwr"/>
-<pin name="VDD" x="-12.7" y="15.24" length="middle" direction="pwr"/>
-<pin name="CLK" x="-12.7" y="5.08" length="middle"/>
-<pin name="VSS2" x="-12.7" y="-10.16" length="middle" direction="pwr"/>
-<pin name="DAT0" x="-12.7" y="12.7" length="middle"/>
-<pin name="DAT1" x="-12.7" y="10.16" length="middle"/>
-<pin name="DAT2" x="-12.7" y="7.62" length="middle"/>
-<text x="-7.366" y="18.288" size="1.778" layer="95" font="vector">&gt;Name</text>
-<pin name="WP" x="-12.7" y="-5.08" length="middle"/>
-<pin name="CD" x="-12.7" y="-2.54" length="middle"/>
-<text x="-7.112" y="-20.32" size="1.778" layer="96" font="vector">&gt;Value</text>
-<pin name="SH@1" x="-12.7" y="-15.24" length="middle"/>
-<pin name="SH@2" x="-12.7" y="-12.7" length="middle"/>
-</symbol>
 <symbol name="CONN_20">
 <description>&lt;h3&gt; 20 Pin Connection&lt;/h3&gt;</description>
 <wire x1="6.35" y1="2.54" x2="0" y2="2.54" width="0.4064" layer="94"/>
@@ -5500,52 +5431,6 @@ tDocu shows where the cable plugs in
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="CONN-13711" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="SD_CARD_SOCKET" prefix="J">
-<description>&lt;h3&gt;SD Memory Card Connector (standard "large" size)&lt;/h3&gt;
-Push-push normal type, CD enable, WP enable.
-
-&lt;p&gt;&lt;/p&gt;
-&lt;b&gt;Here is the connector we sell at SparkFun:&lt;/b&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12769"&gt;SD/MMC Socket&lt;/a&gt; (PRT-12769)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://cdn.sparkfun.com/datasheets/Prototyping/19608.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;
-&lt;b&gt;It is used on these SparkFun products:&lt;/b&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12941"&gt;SparkFun SD/MMC Card Breakout&lt;/a&gt; (BOB-12941)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11468"&gt;SD Sniffer&lt;/a&gt; (TOL-11468)&lt;/li&gt;
-&lt;/ul&gt;</description>
-<gates>
-<gate name="G$1" symbol="SDCARD-1" x="-66.04" y="10.16"/>
-</gates>
-<devices>
-<device name="" package="SD">
-<connects>
-<connect gate="G$1" pin="CD" pad="CD"/>
-<connect gate="G$1" pin="CD/DAT3" pad="1"/>
-<connect gate="G$1" pin="CLK" pad="5"/>
-<connect gate="G$1" pin="CMD" pad="2"/>
-<connect gate="G$1" pin="DAT0" pad="7"/>
-<connect gate="G$1" pin="DAT1" pad="8"/>
-<connect gate="G$1" pin="DAT2" pad="9"/>
-<connect gate="G$1" pin="SH@1" pad="SH@1"/>
-<connect gate="G$1" pin="SH@2" pad="SH@2"/>
-<connect gate="G$1" pin="VDD" pad="4"/>
-<connect gate="G$1" pin="VSS1" pad="3"/>
-<connect gate="G$1" pin="VSS2" pad="6"/>
-<connect gate="G$1" pin="WP" pad="WP"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CONN-11976" constant="no"/>
-<attribute name="SF_ID" value="PRT-12769" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -10174,6 +10059,104 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 </deviceset>
 </devicesets>
 </library>
+<library name="503182-1853">
+<packages>
+<package name="MOLEX_503182-1853">
+<wire x1="-7.6" y1="-7.475" x2="-7.6" y2="7.475" width="0.127" layer="51"/>
+<wire x1="-7.6" y1="7.475" x2="7.6" y2="7.475" width="0.127" layer="51"/>
+<wire x1="7.6" y1="7.475" x2="7.6" y2="-7.475" width="0.127" layer="51"/>
+<wire x1="7.6" y1="-7.475" x2="-7.6" y2="-7.475" width="0.127" layer="51"/>
+<rectangle x1="-3.65228125" y1="-3.427140625" x2="5.55" y2="4.735" layer="41"/>
+<wire x1="-7.97" y1="-7.975" x2="-7.97" y2="7.725" width="0.05" layer="39"/>
+<wire x1="-7.97" y1="7.725" x2="7.97" y2="7.725" width="0.05" layer="39"/>
+<wire x1="7.97" y1="7.725" x2="7.97" y2="-7.975" width="0.05" layer="39"/>
+<wire x1="7.97" y1="-7.975" x2="-7.97" y2="-7.975" width="0.05" layer="39"/>
+<text x="-7.800290625" y="8.2003" size="0.81283125" layer="25">&gt;NAME</text>
+<text x="-7.80436875" y="-9.005040625" size="0.81325625" layer="27">&gt;VALUE</text>
+<wire x1="-7.6" y1="6.55" x2="-7.6" y2="7.475" width="0.127" layer="21"/>
+<wire x1="-7.6" y1="7.475" x2="7.6" y2="7.475" width="0.127" layer="21"/>
+<wire x1="7.6" y1="7.475" x2="7.6" y2="6.55" width="0.127" layer="21"/>
+<wire x1="7.6" y1="1.95" x2="7.6" y2="-7.475" width="0.127" layer="21"/>
+<wire x1="7.6" y1="-7.475" x2="6.23" y2="-7.475" width="0.127" layer="21"/>
+<wire x1="-7.6" y1="3.28" x2="-7.6" y2="-4.85" width="0.127" layer="21"/>
+<wire x1="-6" y1="-7.475" x2="-4.11" y2="-7.475" width="0.127" layer="21"/>
+<wire x1="-1.56" y1="-7.475" x2="3.65" y2="-7.475" width="0.127" layer="21"/>
+<circle x="-3" y="7.9" radius="0.12" width="0.24" layer="21"/>
+<rectangle x1="-3.65183125" y1="-3.42671875" x2="5.55" y2="4.735" layer="43"/>
+<smd name="1" x="-2.9" y="5.605" dx="1.24" dy="0.8" layer="1" rot="R90"/>
+<smd name="2" x="-1.8" y="5.605" dx="1.24" dy="0.8" layer="1" rot="R90"/>
+<smd name="3" x="-0.7" y="5.605" dx="1.24" dy="0.8" layer="1" rot="R90"/>
+<smd name="4" x="0.4" y="5.605" dx="1.24" dy="0.8" layer="1" rot="R90"/>
+<smd name="5" x="1.5" y="5.605" dx="1.24" dy="0.8" layer="1" rot="R90"/>
+<smd name="6" x="2.6" y="5.605" dx="1.24" dy="0.8" layer="1" rot="R90"/>
+<smd name="7" x="3.7" y="5.605" dx="1.24" dy="0.8" layer="1" rot="R90"/>
+<smd name="8" x="4.8" y="5.605" dx="1.24" dy="0.8" layer="1" rot="R90"/>
+<smd name="SH1" x="-7.245" y="4.975" dx="2.5" dy="0.95" layer="1" rot="R90"/>
+<smd name="SH2" x="7.145" y="5.125" dx="2.2" dy="1.15" layer="1" rot="R90"/>
+<smd name="SW_T" x="6.74" y="2.975" dx="1.25" dy="1.16" layer="1" rot="R90"/>
+<smd name="DET_T" x="6.74" y="-6.025" dx="1.2" dy="1.16" layer="1" rot="R90"/>
+<smd name="SH5" x="-7.145" y="-6.355" dx="2.2" dy="1.15" layer="1" rot="R90"/>
+<smd name="SH4" x="-2.84" y="-7.15" dx="1.5" dy="1.15" layer="1" rot="R180"/>
+<smd name="SH3" x="4.94" y="-7.15" dx="1.5" dy="1.15" layer="1" rot="R180"/>
+</package>
+</packages>
+<symbols>
+<symbol name="503182-1853">
+<wire x1="-10.16" y1="-20.32" x2="-10.16" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="20.32" x2="10.16" y2="20.32" width="0.254" layer="94"/>
+<wire x1="10.16" y1="20.32" x2="10.16" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-20.32" x2="-10.16" y2="-20.32" width="0.254" layer="94"/>
+<text x="-10.1769" y="20.9899" size="1.780959375" layer="95">&gt;NAME</text>
+<text x="-10.1645" y="-22.8702" size="1.778790625" layer="96">&gt;VALUE</text>
+<pin name="DATA2" x="-15.24" y="0" length="middle" direction="pas"/>
+<pin name="CD/DAT3" x="-15.24" y="-2.54" length="middle" direction="pas"/>
+<pin name="CMD" x="-15.24" y="10.16" length="middle" direction="pas"/>
+<pin name="VDD" x="15.24" y="17.78" length="middle" direction="pas" rot="R180"/>
+<pin name="CLK" x="-15.24" y="12.7" length="middle" direction="pas"/>
+<pin name="VSS" x="15.24" y="-15.24" length="middle" direction="pas" rot="R180"/>
+<pin name="DAT0" x="-15.24" y="5.08" length="middle" direction="pas"/>
+<pin name="DAT1" x="-15.24" y="2.54" length="middle" direction="pas"/>
+<pin name="SWITCH_TERM" x="-15.24" y="-7.62" length="middle" direction="pas"/>
+<pin name="SHIELD" x="15.24" y="-17.78" length="middle" direction="pas" rot="R180"/>
+<pin name="DETECT_TERM" x="-15.24" y="-10.16" length="middle" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="503182-1853" prefix="J">
+<description>Conn Micro SD Card SKT 8 POS 1.09mm Solder RA SMD Embossed T/R 0.5A/Contact</description>
+<gates>
+<gate name="G$1" symbol="503182-1853" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MOLEX_503182-1853">
+<connects>
+<connect gate="G$1" pin="CD/DAT3" pad="2"/>
+<connect gate="G$1" pin="CLK" pad="5"/>
+<connect gate="G$1" pin="CMD" pad="3"/>
+<connect gate="G$1" pin="DAT0" pad="7"/>
+<connect gate="G$1" pin="DAT1" pad="8"/>
+<connect gate="G$1" pin="DATA2" pad="1"/>
+<connect gate="G$1" pin="DETECT_TERM" pad="DET_T"/>
+<connect gate="G$1" pin="SHIELD" pad="SH1 SH2 SH3 SH4 SH5"/>
+<connect gate="G$1" pin="SWITCH_TERM" pad="SW_T"/>
+<connect gate="G$1" pin="VDD" pad="4"/>
+<connect gate="G$1" pin="VSS" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value=" Conn Micro SD Card SKT 8 POS 1.09mm Solder RA SMD Embossed T/R 0.5A/Contact "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="WM9750CT-ND"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/molex/5031821853/WM9750CT-ND/4092575?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
+<attribute name="MF" value="Molex"/>
+<attribute name="MP" value="5031821853"/>
+<attribute name="PACKAGE" value="None"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10183,6 +10166,8 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <class number="0" name="default" width="0" drill="0">
 </class>
 <class number="1" name="diff pair" width="0.254" drill="0">
+</class>
+<class number="2" name="pwr" width="0.3048" drill="0">
 </class>
 </classes>
 <parts>
@@ -10245,11 +10230,6 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <part name="SUPPLY45" library="SparkFun-PowerSymbols" deviceset="1.8V" device=""/>
 <part name="R21" library="SparkFun-Resistors" deviceset="100KOHM" device="-0402-1/16W-1%" value="100K"/>
 <part name="GND16" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="J4" library="SparkFun-Connectors" deviceset="SD_CARD_SOCKET" device=""/>
-<part name="C12" library="SparkFun-Capacitors" deviceset="4.7UF" device="-0603-6.3V-(10%)" value="4.7uF"/>
-<part name="SUPPLY48" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="GND18" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="GND19" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SJ1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
 <part name="C13" library="SparkFun-Capacitors" deviceset="4.7UF" device="-0603-6.3V-(10%)" value="4.7uF"/>
 <part name="GND20" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -10352,6 +10332,11 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="R12" library="adafruit" deviceset="R-US_" device="R0603" value="332R"/>
 <part name="R15" library="adafruit" deviceset="R-US_" device="R0603" value="332R"/>
+<part name="J6" library="503182-1853" deviceset="503182-1853" device=""/>
+<part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="C4" library="SparkFun-Capacitors" deviceset="4.7UF" device="-0603-6.3V-(10%)" value="4.7uF"/>
+<part name="GND38" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="GND39" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10377,7 +10362,7 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <wire x1="144.78" y1="170.18" x2="144.78" y2="93.98" width="0.1524" layer="97"/>
 <wire x1="144.78" y1="93.98" x2="63.5" y2="93.98" width="0.1524" layer="97"/>
 <text x="20.32" y="149.86" size="2.54" layer="97">GPIO Pull Downs</text>
-<text x="99.06" y="162.56" size="2.54" layer="97">SD Card</text>
+<text x="98.806" y="166.37" size="2.54" layer="97">SD Card</text>
 <text x="12.192" y="139.7" size="1.6764" layer="97">GPIO 28, 29, 44, 45 DO NOT HAVE PULLS
 ENABLED AT BOOT SO PROVIDE 100K 
 PULL DOWNS TO AVOID THEM FLOATING</text>
@@ -10619,23 +10604,6 @@ Place 10 ohm resistor near transformers</text>
 </instance>
 <instance part="GND16" gate="1" x="195.58" y="25.4" smashed="yes">
 <attribute name="VALUE" x="195.58" y="25.146" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="J4" gate="G$1" x="101.6" y="129.54" smashed="yes">
-<attribute name="NAME" x="94.234" y="147.828" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="94.488" y="109.22" size="1.778" layer="96" font="vector"/>
-</instance>
-<instance part="C12" gate="G$1" x="86.36" y="152.4" smashed="yes" rot="R180">
-<attribute name="NAME" x="84.836" y="149.479" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="84.836" y="154.559" size="1.778" layer="96" font="vector" rot="R180"/>
-</instance>
-<instance part="SUPPLY48" gate="G$1" x="81.28" y="144.78" smashed="yes" rot="R90">
-<attribute name="VALUE" x="78.232" y="144.78" size="1.778" layer="96" rot="R180" align="center-left"/>
-</instance>
-<instance part="GND18" gate="1" x="86.36" y="160.02" smashed="yes" rot="R180">
-<attribute name="VALUE" x="86.36" y="160.274" size="1.778" layer="96" rot="R180" align="top-center"/>
-</instance>
-<instance part="GND19" gate="1" x="81.28" y="106.68" smashed="yes">
-<attribute name="VALUE" x="81.28" y="106.426" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="SJ1" gate="1" x="127" y="134.62" smashed="yes" rot="R90">
 <attribute name="NAME" x="124.46" y="132.08" size="1.778" layer="95" rot="R90"/>
@@ -11003,6 +10971,23 @@ Place 10 ohm resistor near transformers</text>
 <attribute name="NAME" x="293.37" y="207.2386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="293.37" y="212.598" size="1.778" layer="96"/>
 </instance>
+<instance part="J6" gate="G$1" x="91.44" y="127" smashed="yes">
+<attribute name="NAME" x="81.2631" y="147.9899" size="1.780959375" layer="95"/>
+<attribute name="VALUE" x="81.2755" y="104.1298" size="1.778790625" layer="96"/>
+</instance>
+<instance part="SUPPLY9" gate="G$1" x="111.76" y="144.78" smashed="yes" rot="R270">
+<attribute name="VALUE" x="114.808" y="144.78" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="C4" gate="G$1" x="109.22" y="152.4" smashed="yes" rot="R180">
+<attribute name="NAME" x="107.696" y="149.479" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="107.696" y="154.559" size="1.778" layer="96" font="vector" rot="R180"/>
+</instance>
+<instance part="GND38" gate="1" x="109.22" y="160.02" smashed="yes" rot="R180">
+<attribute name="VALUE" x="109.22" y="160.274" size="1.778" layer="96" rot="R180" align="top-center"/>
+</instance>
+<instance part="GND39" gate="1" x="109.22" y="104.14" smashed="yes">
+<attribute name="VALUE" x="109.22" y="103.886" size="1.778" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -11358,29 +11343,6 @@ Place 10 ohm resistor near transformers</text>
 <wire x1="195.58" y1="30.48" x2="195.58" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="30.48" x2="195.58" y2="30.48" width="0.1524" layer="91"/>
 <junction x="195.58" y="30.48"/>
-</segment>
-<segment>
-<pinref part="C12" gate="G$1" pin="2"/>
-<pinref part="GND18" gate="1" pin="GND"/>
-<wire x1="86.36" y1="154.94" x2="86.36" y2="157.48" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J4" gate="G$1" pin="VSS1"/>
-<wire x1="88.9" y1="121.92" x2="81.28" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="121.92" x2="81.28" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="SH@1"/>
-<wire x1="81.28" y1="119.38" x2="81.28" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="116.84" x2="81.28" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="114.3" x2="81.28" y2="114.3" width="0.1524" layer="91"/>
-<junction x="81.28" y="114.3"/>
-<pinref part="J4" gate="G$1" pin="SH@2"/>
-<wire x1="88.9" y1="116.84" x2="81.28" y2="116.84" width="0.1524" layer="91"/>
-<junction x="81.28" y="116.84"/>
-<pinref part="J4" gate="G$1" pin="VSS2"/>
-<wire x1="88.9" y1="119.38" x2="81.28" y2="119.38" width="0.1524" layer="91"/>
-<junction x="81.28" y="119.38"/>
-<pinref part="GND19" gate="1" pin="GND"/>
-<wire x1="81.28" y1="109.22" x2="81.28" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C13" gate="G$1" pin="1"/>
@@ -11742,6 +11704,21 @@ Place 10 ohm resistor near transformers</text>
 <pinref part="J5" gate="G$1" pin="SHIELD@1"/>
 <wire x1="254" y1="210.82" x2="251.46" y2="210.82" width="0.1524" layer="91"/>
 <junction x="251.46" y="210.82"/>
+</segment>
+<segment>
+<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="GND38" gate="1" pin="GND"/>
+<wire x1="109.22" y1="154.94" x2="109.22" y2="157.48" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J6" gate="G$1" pin="VSS"/>
+<pinref part="GND39" gate="1" pin="GND"/>
+<wire x1="106.68" y1="111.76" x2="109.22" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="111.76" x2="109.22" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="J6" gate="G$1" pin="SHIELD"/>
+<wire x1="109.22" y1="109.22" x2="109.22" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="109.22" x2="109.22" y2="109.22" width="0.1524" layer="91"/>
+<junction x="109.22" y="109.22"/>
 </segment>
 </net>
 <net name="SDA1" class="0">
@@ -12166,7 +12143,7 @@ Place 10 ohm resistor near transformers</text>
 <label x="30.48" y="104.14" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="5V" class="0">
+<net name="5V" class="2">
 <segment>
 <pinref part="SUPPLY15" gate="G$1" pin="5V"/>
 <pinref part="CPU1" gate="G$1" pin="199/VBAT"/>
@@ -12236,7 +12213,7 @@ Place 10 ohm resistor near transformers</text>
 <junction x="297.18" y="111.76"/>
 </segment>
 </net>
-<net name="3.3V" class="0">
+<net name="3.3V" class="2">
 <segment>
 <pinref part="CPU1" gate="G$1" pin="192/3V3"/>
 <pinref part="SUPPLY16" gate="G$1" pin="3.3V"/>
@@ -12333,15 +12310,6 @@ Place 10 ohm resistor near transformers</text>
 <wire x1="71.12" y1="76.2" x2="71.12" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="VDD"/>
-<pinref part="SUPPLY48" gate="G$1" pin="3.3V"/>
-<wire x1="88.9" y1="144.78" x2="86.36" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="C12" gate="G$1" pin="1"/>
-<wire x1="86.36" y1="144.78" x2="81.28" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="147.32" x2="86.36" y2="144.78" width="0.1524" layer="91"/>
-<junction x="86.36" y="144.78"/>
-</segment>
-<segment>
 <pinref part="SJ1" gate="1" pin="2"/>
 <pinref part="SUPPLY49" gate="G$1" pin="3.3V"/>
 <wire x1="127" y1="139.7" x2="127" y2="142.24" width="0.1524" layer="91"/>
@@ -12433,8 +12401,17 @@ Place 10 ohm resistor near transformers</text>
 <pinref part="J5" gate="G$1" pin="GLED+"/>
 <wire x1="292.1" y1="218.44" x2="289.56" y2="218.44" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="J6" gate="G$1" pin="VDD"/>
+<pinref part="SUPPLY9" gate="G$1" pin="3.3V"/>
+<wire x1="106.68" y1="144.78" x2="109.22" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="109.22" y1="144.78" x2="111.76" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="144.78" x2="109.22" y2="147.32" width="0.1524" layer="91"/>
+<junction x="109.22" y="144.78"/>
+</segment>
 </net>
-<net name="1.8V" class="0">
+<net name="1.8V" class="2">
 <segment>
 <pinref part="CPU1" gate="G$1" pin="185/1V8"/>
 <pinref part="SUPPLY31" gate="G$1" pin="1.8V"/>
@@ -12653,7 +12630,7 @@ Place 10 ohm resistor near transformers</text>
 <junction x="45.72" y="317.5"/>
 </segment>
 </net>
-<net name="ETH_USBDP" class="0">
+<net name="ETH_USBD_P" class="1">
 <segment>
 <pinref part="U5" gate="A" pin="USBDP0"/>
 <wire x1="170.18" y1="368.3" x2="175.26" y2="368.3" width="0.1524" layer="91"/>
@@ -12665,7 +12642,7 @@ Place 10 ohm resistor near transformers</text>
 <label x="149.86" y="38.1" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="ETH_USBDM" class="0">
+<net name="ETH_USBD_N" class="1">
 <segment>
 <pinref part="U5" gate="A" pin="USBDM0"/>
 <wire x1="170.18" y1="363.22" x2="175.26" y2="363.22" width="0.1524" layer="91"/>
@@ -12814,74 +12791,74 @@ Place 10 ohm resistor near transformers</text>
 </net>
 <net name="SD_D0" class="0">
 <segment>
-<pinref part="J4" gate="G$1" pin="DAT0"/>
-<wire x1="88.9" y1="142.24" x2="86.36" y2="142.24" width="0.1524" layer="91"/>
-<label x="86.36" y="142.24" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="CPU1" gate="G$1" pin="16/NC"/>
 <wire x1="528.32" y1="383.54" x2="525.78" y2="383.54" width="0.1524" layer="91"/>
 <label x="528.32" y="383.54" size="1.016" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J6" gate="G$1" pin="DAT0"/>
+<wire x1="73.66" y1="132.08" x2="76.2" y2="132.08" width="0.1524" layer="91"/>
+<label x="73.66" y="132.08" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="SD_D1" class="0">
-<segment>
-<pinref part="J4" gate="G$1" pin="DAT1"/>
-<wire x1="88.9" y1="139.7" x2="86.36" y2="139.7" width="0.1524" layer="91"/>
-<label x="86.36" y="139.7" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="CPU1" gate="G$1" pin="18/NC"/>
 <wire x1="528.32" y1="381" x2="525.78" y2="381" width="0.1524" layer="91"/>
 <label x="528.32" y="381" size="1.016" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J6" gate="G$1" pin="DAT1"/>
+<wire x1="73.66" y1="129.54" x2="76.2" y2="129.54" width="0.1524" layer="91"/>
+<label x="73.66" y="129.54" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="SD_D2" class="0">
-<segment>
-<pinref part="J4" gate="G$1" pin="DAT2"/>
-<wire x1="86.36" y1="137.16" x2="88.9" y2="137.16" width="0.1524" layer="91"/>
-<label x="86.36" y="137.16" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="CPU1" gate="G$1" pin="22/NC"/>
 <wire x1="528.32" y1="375.92" x2="525.78" y2="375.92" width="0.1524" layer="91"/>
 <label x="528.32" y="375.92" size="1.016" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J6" gate="G$1" pin="DATA2"/>
+<wire x1="73.66" y1="127" x2="76.2" y2="127" width="0.1524" layer="91"/>
+<label x="73.66" y="127" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="SD_CLK" class="0">
-<segment>
-<pinref part="J4" gate="G$1" pin="CLK"/>
-<wire x1="86.36" y1="134.62" x2="88.9" y2="134.62" width="0.1524" layer="91"/>
-<label x="86.36" y="134.62" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="CPU1" gate="G$1" pin="10/NC"/>
 <wire x1="528.32" y1="391.16" x2="525.78" y2="391.16" width="0.1524" layer="91"/>
 <label x="528.32" y="391.16" size="1.016" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J6" gate="G$1" pin="CLK"/>
+<wire x1="73.66" y1="139.7" x2="76.2" y2="139.7" width="0.1524" layer="91"/>
+<label x="73.66" y="139.7" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="SD_CMD" class="0">
-<segment>
-<pinref part="J4" gate="G$1" pin="CMD"/>
-<wire x1="86.36" y1="132.08" x2="88.9" y2="132.08" width="0.1524" layer="91"/>
-<label x="86.36" y="132.08" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="CPU1" gate="G$1" pin="12/NC"/>
 <wire x1="528.32" y1="388.62" x2="525.78" y2="388.62" width="0.1524" layer="91"/>
 <label x="528.32" y="388.62" size="1.016" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J6" gate="G$1" pin="CMD"/>
+<wire x1="73.66" y1="137.16" x2="76.2" y2="137.16" width="0.1524" layer="91"/>
+<label x="73.66" y="137.16" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="SD_D3" class="0">
-<segment>
-<pinref part="J4" gate="G$1" pin="CD/DAT3"/>
-<wire x1="86.36" y1="129.54" x2="88.9" y2="129.54" width="0.1524" layer="91"/>
-<label x="86.36" y="129.54" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="CPU1" gate="G$1" pin="24/NC"/>
 <wire x1="528.32" y1="373.38" x2="525.78" y2="373.38" width="0.1524" layer="91"/>
 <label x="528.32" y="373.38" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J6" gate="G$1" pin="CD/DAT3"/>
+<wire x1="73.66" y1="124.46" x2="76.2" y2="124.46" width="0.1524" layer="91"/>
+<label x="73.66" y="124.46" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SD_VREF" class="0">
@@ -12905,7 +12882,7 @@ Place 10 ohm resistor near transformers</text>
 <label x="129.54" y="127" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="ETH_USB_DP2" class="0">
+<net name="ETH_USB_D2_P" class="0">
 <segment>
 <pinref part="U5" gate="A" pin="USBDP2"/>
 <wire x1="172.72" y1="353.06" x2="170.18" y2="353.06" width="0.1524" layer="91"/>
@@ -12917,7 +12894,7 @@ Place 10 ohm resistor near transformers</text>
 <label x="43.18" y="375.92" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="ETH_USB_DM2" class="0">
+<net name="ETH_USB_D2_N" class="0">
 <segment>
 <pinref part="U5" gate="A" pin="USBDM2"/>
 <wire x1="172.72" y1="350.52" x2="170.18" y2="350.52" width="0.1524" layer="91"/>
@@ -12929,7 +12906,7 @@ Place 10 ohm resistor near transformers</text>
 <label x="43.18" y="373.38" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="ETH_USB_DP3" class="0">
+<net name="ETH_USB_D3_P" class="0">
 <segment>
 <pinref part="U5" gate="A" pin="USBDP3"/>
 <wire x1="172.72" y1="342.9" x2="170.18" y2="342.9" width="0.1524" layer="91"/>
@@ -12941,7 +12918,7 @@ Place 10 ohm resistor near transformers</text>
 <label x="43.18" y="322.58" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="ETH_USB_DM3" class="0">
+<net name="ETH_USB_D3_N" class="0">
 <segment>
 <pinref part="U5" gate="A" pin="USBDM3"/>
 <wire x1="172.72" y1="340.36" x2="170.18" y2="340.36" width="0.1524" layer="91"/>
