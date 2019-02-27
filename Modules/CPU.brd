@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -174,9 +174,10 @@
 <text x="14.9098" y="24.8666" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="center">1</text>
 <text x="14.8082" y="30.0736" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="center">0</text>
 <rectangle x1="0" y1="54.61" x2="132.08" y2="55.88" layer="21"/>
-<text x="24.7396" y="0.7366" size="1.524" layer="21">PoolTable CPU REV A
+<text x="24.7396" y="0.7366" size="1.524" layer="21">PoolTable CPU Module
 Created by DART 2019
 Released under the GPLv3</text>
+<text x="56.2356" y="0.9906" size="1.524" layer="21">Rev A</text>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">

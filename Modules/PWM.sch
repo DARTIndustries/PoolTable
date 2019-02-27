@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2645,7 +2645,7 @@ LETTER landscape</description>
 <part name="R25" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="D1" library="SparkFun-LED" deviceset="LED" device="0603"/>
+<part name="PWR" library="SparkFun-LED" deviceset="LED" device="0603"/>
 <part name="R26" library="SparkFun-Resistors" deviceset="470OHM" device="-0603-1/10W-1%" value="470"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
@@ -2753,7 +2753,7 @@ Being a module, it is fully replacable or upgradable if the need arises.</text>
 </instance>
 <instance part="P+4" gate="VCC" x="198.12" y="58.42" smashed="yes" rot="R90"/>
 <instance part="P+5" gate="VCC" x="238.76" y="63.5" smashed="yes" rot="R270"/>
-<instance part="D1" gate="D1" x="187.96" y="144.78" smashed="yes" rot="R90">
+<instance part="PWR" gate="D1" x="187.96" y="144.78" smashed="yes" rot="R90">
 <attribute name="NAME" x="192.532" y="141.351" size="1.778" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="192.532" y="146.685" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
@@ -3119,7 +3119,7 @@ Being a module, it is fully replacable or upgradable if the need arises.</text>
 </segment>
 <segment>
 <pinref part="P+6" gate="VCC" pin="VCC"/>
-<pinref part="D1" gate="D1" pin="A"/>
+<pinref part="PWR" gate="D1" pin="A"/>
 <wire x1="180.34" y1="144.78" x2="185.42" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -3340,7 +3340,7 @@ Being a module, it is fully replacable or upgradable if the need arises.</text>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="D1" gate="D1" pin="C"/>
+<pinref part="PWR" gate="D1" pin="C"/>
 <pinref part="R26" gate="G$1" pin="1"/>
 <wire x1="193.04" y1="144.78" x2="198.12" y2="144.78" width="0.1524" layer="91"/>
 </segment>
