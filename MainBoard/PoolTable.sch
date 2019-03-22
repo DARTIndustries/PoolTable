@@ -19728,7 +19728,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.254" drill="0">
 </class>
 <class number="1" name="diff pair" width="0.4064" drill="0">
 </class>
